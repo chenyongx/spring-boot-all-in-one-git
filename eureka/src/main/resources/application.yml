@@ -1,0 +1,15 @@
+server:
+  port: 8761
+
+spring:
+  application:
+    name: eurake
+
+eureka:
+  client:
+    fetchRegistry: false
+    serviceUrl:
+      defaultZone: http://localhost:8762/eureka/
+#endpoints:
+#  sensitive: true
+

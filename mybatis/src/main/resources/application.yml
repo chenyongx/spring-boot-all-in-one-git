@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: mybatis
+  datasource:                           # \u6307\u5B9A\u6570\u636E\u6E90
+    driver-class-name:  org.h2.Driver
+    platform: h2                        # \u6307\u5B9A\u6570\u636E\u6E90\u7C7B\u578B
+    schema: classpath:schema.sql        # \u6307\u5B9Ah2\u6570\u636E\u5E93\u7684\u5EFA\u8868\u811A\u672C
+    data: classpath:data.sql
+
+mybatis:
+  mapper-locations: classpath:/mapper/*.xml           # \u6307\u5B9Ah2\u6570\u636E\u5E93\u7684\u6570\u636E\u811A\u672C
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+    prefer-ip-address: true
+
+endpoints:
+  sensitive: true

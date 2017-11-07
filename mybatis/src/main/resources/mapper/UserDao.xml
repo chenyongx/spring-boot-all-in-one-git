@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- 用户信息mapper -->
+<mapper namespace="com.example.demo.dao.UserDao">
+    <!-- 用户信息map对象 -->
+    <resultMap id="UserMap" type="com.example.demo.entity.User">
+        <result column="id" property="id"/>
+        <result column="name" property="name"/>
+        <result column="birthday" property="birthday"/>
+    </resultMap>
+
+    <!--根据用户id查询用户信息-->
+    <select id="findAll" resultMap="UserMap">
+        SELECT id, name, birthday
+        FROM user
+        WHERE id = #{id}
+    </select>
+
+</mapper>
