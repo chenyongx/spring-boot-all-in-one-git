@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="test">
+  <database-model serializer="dbm" rdbms="H2" format-version="4.4">
+    <root id="1"/>
+    <database id="2" parent="1" name="TEST">
+      <Current>1</Current>
+    </database>
+    <database id="3" parent="1"/>
+  </database-model>
+</dataSource>
