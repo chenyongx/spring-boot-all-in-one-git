@@ -4,9 +4,9 @@
 <mapper namespace="com.example.demo.dao.UserDao">
     <!-- 用户信息map对象 -->
     <resultMap id="UserMap" type="com.example.demo.entity.User">
-        <result column="id" property="id"/>
-        <result column="name" property="name"/>
-        <result column="birthday" property="birthday"/>
+        <!--<result column="id" property="id"/>-->
+        <!--<result column="name" property="name"/>-->
+        <!--<result column="birthday" property="birthday"/>-->
     </resultMap>
 
     <!--根据用户id查询用户信息-->
