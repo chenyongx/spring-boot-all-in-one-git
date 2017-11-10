@@ -27,6 +27,7 @@
         <module>zuul</module>
         <module>eureka</module>
         <module>eureka2</module>
+        <module>demo</module>
     </modules>
 
     <dependencyManagement>
