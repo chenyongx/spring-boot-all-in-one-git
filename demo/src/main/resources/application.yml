@@ -1,0 +1,4 @@
+spring:
+  datasource:
+    tomcat:
+      driver-class-name: ${jdbc.driver}
