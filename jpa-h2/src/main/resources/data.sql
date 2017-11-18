@@ -1,2 +1,6 @@
-insert into `user` (`id`, `user_name`, `birthday`) values('1','jack','2017-10-09 16:39:12');
-insert into `user` (`id`, `user_name`, `birthday`) values('2','rose','2017-10-09 16:39:12');
+INSERT INTO person (id, name, age, address) VALUES (1, '汪云飞', 32, '合肥');
+INSERT INTO person (id, name, age, address) VALUES (2, 'xx', 31, '北京');
+INSERT INTO person (id, name, age, address) VALUES (3, 'yy', 30, '上海');
+INSERT INTO person (id, name, age, address) VALUES (4, 'zz', 29, '南京');
+INSERT INTO person (id, name, age, address) VALUES (5, 'aa', 28, '武汉');
+INSERT INTO person (id, name, age, address) VALUES (6, 'bb', 27, '合肥');

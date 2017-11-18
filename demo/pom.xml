@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns="http://maven.apache.org/POM/4.0.0"
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
@@ -74,17 +74,17 @@
                 <directory>src/main/resources</directory>
                 <filtering>true</filtering>
                 <!--<includes>-->
-                    <!--<include>**/*.xml</include>-->
-                    <!--<include>**/*.properties</include>-->
-                    <!--<include>**/*.yml</include>-->
-                    <!--<include>**/*.html</include>-->
-                    <!--<include>**/*.js</include>-->
-                    <!--<include>**/*.css</include>-->
-                    <!--<include>**/*.jpg</include>-->
-                    <!--<include>**/*.png</include>-->
+                <!--<include>**/*.xml</include>-->
+                <!--<include>**/*.properties</include>-->
+                <!--<include>**/*.yml</include>-->
+                <!--<include>**/*.html</include>-->
+                <!--<include>**/*.js</include>-->
+                <!--<include>**/*.css</include>-->
+                <!--<include>**/*.jpg</include>-->
+                <!--<include>**/*.png</include>-->
                 <!--</includes>-->
                 <!--<excludes>-->
-                    <!--<exclude>**/.git</exclude>-->
+                <!--<exclude>**/.git</exclude>-->
                 <!--</excludes>-->
             </resource>
         </resources>

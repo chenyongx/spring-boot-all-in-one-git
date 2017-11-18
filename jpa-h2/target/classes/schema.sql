@@ -1,7 +1,8 @@
-drop table user if exists;
+DROP TABLE person IF EXISTS;
 
-create table `user` (
-  `id` int (11),
-  `user_name` varchar (96),
-  `birthday` datetime
+CREATE TABLE `person` (
+  `id`      INT,
+  `name`    VARCHAR(96),
+  `age`     INT,
+  `address` VARCHAR(96)
 );

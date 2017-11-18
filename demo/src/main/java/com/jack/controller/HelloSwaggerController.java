@@ -6,10 +6,7 @@ import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiResponse;
 import io.swagger.annotations.ApiResponses;
 import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -17,6 +14,10 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping(value = "/hello")
 @Api(description = "hello", basePath = "hello")
 public class HelloSwaggerController {
+
+    public static void main(String[] args) throws Exception {
+        SpringApplication.run(HelloSwaggerController.class, args);
+    }
 
     @RequestMapping("/")
     @ResponseBody
@@ -27,9 +28,5 @@ public class HelloSwaggerController {
         @ApiResponse(code = 1004, message = "parameter null")})
     String home() {
         return "Hello World!";
-    }
-
-    public static void main(String[] args) throws Exception {
-        SpringApplication.run(HelloSwaggerController.class, args);
     }
 }

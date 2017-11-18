@@ -2,7 +2,6 @@ package com.example.demo.dao;
 
 import com.example.demo.entity.User;
 import org.apache.ibatis.annotations.Param;
-import org.springframework.stereotype.Service;
 
 /**
  * 用户信息dao Created by Infi on 17/3/22.

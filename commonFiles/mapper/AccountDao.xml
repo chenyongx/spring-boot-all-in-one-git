@@ -1,19 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+    "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <!-- 账户信息mapper -->
 <mapper namespace="com.jack.user.dao.user.AccountDao">
     <resultMap id="UserAccountMap" type="com.jack.common.entity.user.Account">
     </resultMap>
 
-    <insert id="addAccount" useGeneratedKeys="true" keyProperty="userId">
+    <insert id="addAccount" keyProperty="userId" useGeneratedKeys="true">
         INSERT INTO
-            t_account (user_id, mobile, email, facebook_id, facebook_name, weixin_id, weixin_name, pwd, access_token,
-                 validity_date,
-                    register_type, client_type, register_client_type, login_type, ip_address, create_date, activate_status)
-        VALUES (#{userId}, #{mobile}, #{email}, #{facebookId}, #{facebookName}, #{weixinId}, #{weixinName}, #{pwd},
-                           #{accessToken},
-                           #{validityDate}, #{registerType}, #{registerClientType}, #{clientType}, #{loginType},
-                #{ipAddress}, #{createDate}, #{activateStatus})
+        t_account (user_id, mobile, email, facebook_id, facebook_name, weixin_id, weixin_name, pwd,
+        access_token,
+        validity_date,
+        register_type, client_type, register_client_type, login_type, ip_address, create_date,
+        activate_status)
+        VALUES (#{userId}, #{mobile}, #{email}, #{facebookId}, #{facebookName}, #{weixinId},
+        #{weixinName}, #{pwd},
+        #{accessToken},
+        #{validityDate}, #{registerType}, #{registerClientType}, #{clientType}, #{loginType},
+        #{ipAddress}, #{createDate}, #{activateStatus})
     </insert>
 
     <!--修改用户帐号信息-->
@@ -53,7 +57,8 @@
     </update>
 
     <sql id="common_fields">
-        user_id, mobile, email, facebook_id, weixin_id, weixin_name, facebook_name, access_token, validity_date, client_type,
+        user_id, mobile, email, facebook_id, weixin_id, weixin_name, facebook_name, access_token,
+        validity_date, client_type,
         register_client_type, create_date, register_type, login_type, activate_status
     </sql>
 
