@@ -10,6 +10,7 @@
         <module name="demo" />
         <module name="eureka" />
         <module name="eureka2" />
+        <module name="jpa-h2" />
         <module name="mybatis" />
         <module name="zuul" />
       </profile>
@@ -19,6 +20,7 @@
       <module name="demo" target="1.8" />
       <module name="eureka" target="1.8" />
       <module name="eureka2" target="1.8" />
+      <module name="jpa-h2" target="1.8" />
       <module name="mybatis" target="1.8" />
       <module name="parent" target="1.8" />
       <module name="spring-boot-all-in-one" target="1.8" />
