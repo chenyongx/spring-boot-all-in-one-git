@@ -6,6 +6,8 @@
         <option value="$PROJECT_DIR$/mybatis/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/jpa-h2/pom.xml" />
+        <option value="$PROJECT_DIR$/actuator/pom.xml" />
+        <option value="$PROJECT_DIR$/maven-pom-demo/pom.xml" />
       </list>
     </option>
   </component>
