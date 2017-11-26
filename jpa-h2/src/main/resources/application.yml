@@ -1,10 +1,23 @@
 spring:
   datasource:
-    driver-class-name:  org.h2.Driver
+    url: jdbc:h2:~/test
+    driver-class-name: org.h2.Driver
     platform: h2
     schema: classpath:schema.sql
     data: classpath:data.sql
+    username: root
+    password: root
   jpa:
     hibernate:
       ddl-auto: update
     show-sql: true
+  h2:
+  #配置能远程访问
+    console:
+      settings:
+        web-allow-others: true
+      enabled: true
+
+server:
+  port: 8001
+
