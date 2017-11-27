@@ -8,6 +8,8 @@
         <option value="$PROJECT_DIR$/jpa-h2/pom.xml" />
         <option value="$PROJECT_DIR$/actuator/pom.xml" />
         <option value="$PROJECT_DIR$/maven-pom-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/spark/pom.xml" />
+        <option value="$PROJECT_DIR$/druid/pom.xml" />
       </list>
     </option>
   </component>

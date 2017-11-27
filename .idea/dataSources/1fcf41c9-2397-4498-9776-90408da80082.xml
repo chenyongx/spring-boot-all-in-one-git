@@ -5,6 +5,5 @@
     <database id="2" parent="1" name="TEST">
       <Current>1</Current>
     </database>
-    <database id="3" parent="1"/>
   </database-model>
 </dataSource>

@@ -5,6 +5,7 @@ spring:
     schema: classpath:schema.sql
     data: classpath:data.sql
     url: jdbc:h2:mem:test
+    type: com.alibaba.druid.pool.DruidDataSource
 
   jpa:
     hibernate:
@@ -13,3 +14,6 @@ spring:
   h2:
     console:
       enabled: true
+
+server:
+  port: 7001

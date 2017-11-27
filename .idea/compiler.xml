@@ -8,25 +8,26 @@
         <outputRelativeToContentRoot value="true" />
         <module name="actuator" />
         <module name="allInOne-mybatis" />
-        <module name="demo" />
-        <module name="eureka" />
-        <module name="eureka2" />
+        <module name="druid" />
         <module name="jpa-h2" />
         <module name="maven-pom-demo" />
         <module name="mybatis" />
-        <module name="zuul" />
+        <module name="spark" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="actuator" target="1.8" />
       <module name="allInOne-mybatis" target="1.8" />
       <module name="demo" target="1.8" />
+      <module name="druid" target="1.8" />
       <module name="eureka" target="1.8" />
       <module name="eureka2" target="1.8" />
       <module name="jpa-h2" target="1.8" />
       <module name="maven-pom-demo" target="1.8" />
       <module name="mybatis" target="1.8" />
       <module name="parent" target="1.8" />
+      <module name="redis-cache" target="1.6" />
+      <module name="spark" target="1.8" />
       <module name="spring-boot-all-in-one" target="1.8" />
       <module name="zuul" target="1.8" />
     </bytecodeTargetLevel>
