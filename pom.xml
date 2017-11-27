@@ -23,12 +23,12 @@
     </properties>
 
     <modules>
-        <module>mybatis</module>
-        <module>zuul</module>
-        <module>eureka</module>
-        <module>eureka2</module>
-        <module>demo</module>
-        <module>redis-cache</module>
+        <!--<module>mybatis</module>-->
+        <!--<module>zuul</module>-->
+        <!--<module>eureka</module>-->
+        <!--<module>eureka2</module>-->
+        <!--<module>demo</module>-->
+        <!--<module>redis-cache</module>-->
     </modules>
 
     <dependencyManagement>
@@ -87,7 +87,6 @@
             <groupId>com.h2database</groupId>
             <artifactId>h2</artifactId>
             <version>1.4.192</version>
-            <!--<scope>test</scope>-->
         </dependency>
     </dependencies>
 
