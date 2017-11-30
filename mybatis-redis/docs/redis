@@ -1,0 +1,4 @@
+redis-server
+redis-cli
+select 3
+keys *

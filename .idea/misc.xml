@@ -10,6 +10,7 @@
         <option value="$PROJECT_DIR$/maven-pom-demo/pom.xml" />
         <option value="$PROJECT_DIR$/spark/pom.xml" />
         <option value="$PROJECT_DIR$/druid/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatis-redis/pom.xml" />
       </list>
     </option>
   </component>

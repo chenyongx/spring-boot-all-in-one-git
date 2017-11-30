@@ -3,12 +3,18 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/actuator/actuator.iml" filepath="$PROJECT_DIR$/actuator/actuator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo/demo.iml" filepath="$PROJECT_DIR$/demo/demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/druid/druid.iml" filepath="$PROJECT_DIR$/druid/druid.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka/eureka.iml" filepath="$PROJECT_DIR$/eureka/eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka2/eureka2.iml" filepath="$PROJECT_DIR$/eureka2/eureka2.iml" />
       <module fileurl="file://$PROJECT_DIR$/jpa-h2/jpa-h2.iml" filepath="$PROJECT_DIR$/jpa-h2/jpa-h2.iml" />
       <module fileurl="file://$PROJECT_DIR$/maven-pom-demo/maven-pom-demo.iml" filepath="$PROJECT_DIR$/maven-pom-demo/maven-pom-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/mybatis/mybatis.iml" filepath="$PROJECT_DIR$/mybatis/mybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybatis-redis/mybatis-redis.iml" filepath="$PROJECT_DIR$/mybatis-redis/mybatis-redis.iml" />
       <module fileurl="file://$PROJECT_DIR$/parent.iml" filepath="$PROJECT_DIR$/parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/redis-cache/redis-cache.iml" filepath="$PROJECT_DIR$/redis-cache/redis-cache.iml" />
       <module fileurl="file://$PROJECT_DIR$/spark/spark.iml" filepath="$PROJECT_DIR$/spark/spark.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zuul/zuul.iml" filepath="$PROJECT_DIR$/zuul/zuul.iml" />
     </modules>
   </component>
 </project>
