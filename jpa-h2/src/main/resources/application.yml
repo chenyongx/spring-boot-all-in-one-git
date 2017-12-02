@@ -1,11 +1,11 @@
+
 spring:
   datasource:
     driver-class-name:  org.h2.Driver
-    platform: h2
-    schema: classpath:schema.sql
-    data: classpath:data.sql
+#    schema: classpath:schema.sql
+#    data: classpath:data.sql
     url: jdbc:h2:mem:test
-    type: com.alibaba.druid.pool.DruidDataSource
+#    type: com.alibaba.druid.pool.DruidDataSource
 
   jpa:
     hibernate:
@@ -17,3 +17,5 @@ spring:
 
 server:
   port: 7001
+
+debug: true
