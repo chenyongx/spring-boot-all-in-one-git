@@ -22,7 +22,7 @@
             <dependency>
                 <groupId>org.springframework.cloud</groupId>
                 <artifactId>spring-cloud-dependencies</artifactId>
-                <version>Edgware.RELEASE</version>
+                <version>${spring-cloud.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
@@ -72,6 +72,7 @@
         <spring.version>5.0.2.RELEASE</spring.version>
         <testng.version>6.8.7</testng.version>
         <unitils.version>3.4.2</unitils.version>
+        <spring-cloud.version>Edgware.RELEASE</spring-cloud.version>
     </properties>
 
     <dependencies>
