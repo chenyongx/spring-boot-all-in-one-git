@@ -35,7 +35,7 @@
       <module name="mybatis" target="1.8" />
       <module name="mybatis-redis" target="1.8" />
       <module name="parent" target="1.8" />
-      <module name="redis-cache" target="1.6" />
+      <module name="redis-cache" target="1.8" />
       <module name="spark" target="1.8" />
       <module name="spring-boot-all-in-one" target="1.8" />
       <module name="zuul" target="1.8" />

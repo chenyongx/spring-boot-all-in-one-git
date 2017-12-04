@@ -10,7 +10,5 @@
     </parent>
 
     <artifactId>guava</artifactId>
-    <version>${parent.version}</version>
-    <packaging>jar</packaging>
 
 </project>
