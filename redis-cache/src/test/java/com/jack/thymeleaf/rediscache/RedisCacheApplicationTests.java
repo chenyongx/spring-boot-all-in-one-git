@@ -1,4 +1,4 @@
-package com.wisely.rediscache;
+package com.jack.thymeleaf.rediscache;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

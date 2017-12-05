@@ -1,4 +1,4 @@
-package com.wisely.rediscache.domain;
+package com.jack.thymeleaf.rediscache.domain;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

@@ -12,6 +12,7 @@
         <option value="$PROJECT_DIR$/druid/pom.xml" />
         <option value="$PROJECT_DIR$/mybatis-redis/pom.xml" />
         <option value="$PROJECT_DIR$/guava/pom.xml" />
+        <option value="$PROJECT_DIR$/demo2/pom.xml" />
       </list>
     </option>
   </component>

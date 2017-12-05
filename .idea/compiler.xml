@@ -9,6 +9,7 @@
         <module name="actuator" />
         <module name="allInOne-mybatis" />
         <module name="demo" />
+        <module name="demo2" />
         <module name="druid" />
         <module name="eureka" />
         <module name="eureka2" />
@@ -19,6 +20,7 @@
         <module name="mybatis-redis" />
         <module name="redis-cache" />
         <module name="spark" />
+        <module name="thymeleaf" />
         <module name="zuul" />
       </profile>
     </annotationProcessing>
@@ -26,6 +28,7 @@
       <module name="actuator" target="1.8" />
       <module name="allInOne-mybatis" target="1.8" />
       <module name="demo" target="1.8" />
+      <module name="demo2" target="1.8" />
       <module name="druid" target="1.8" />
       <module name="eureka" target="1.8" />
       <module name="eureka2" target="1.8" />
@@ -38,6 +41,8 @@
       <module name="redis-cache" target="1.8" />
       <module name="spark" target="1.8" />
       <module name="spring-boot-all-in-one" target="1.8" />
+      <module name="thymeleaf" target="1.8" />
+      <module name="thymeleaf-demo" target="1.8" />
       <module name="zuul" target="1.8" />
     </bytecodeTargetLevel>
   </component>

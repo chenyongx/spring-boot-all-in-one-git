@@ -1,6 +1,6 @@
-package com.wisely.rediscache.service;
+package com.jack.thymeleaf.rediscache.service;
 
-import com.wisely.rediscache.domain.Person;
+import com.jack.thymeleaf.rediscache.domain.Person;
 
 /**
  * @author yangyueming

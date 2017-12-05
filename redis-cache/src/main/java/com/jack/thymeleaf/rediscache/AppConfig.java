@@ -1,4 +1,4 @@
-package com.wisely.rediscache;
+package com.jack.thymeleaf.rediscache;
 
 import org.springframework.cache.annotation.EnableCaching;
 import org.springframework.context.annotation.Configuration;

@@ -1,7 +1,7 @@
-package com.wisely.rediscache.web;
+package com.jack.thymeleaf.rediscache.web;
 
-import com.wisely.rediscache.domain.Person;
-import com.wisely.rediscache.service.DemoService;
+import com.jack.thymeleaf.rediscache.domain.Person;
+import com.jack.thymeleaf.rediscache.service.DemoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

@@ -1,8 +1,8 @@
-package com.wisely.rediscache.service.impl;
+package com.jack.thymeleaf.rediscache.service.impl;
 
-import com.wisely.rediscache.dao.PersonRepository;
-import com.wisely.rediscache.domain.Person;
-import com.wisely.rediscache.service.DemoService;
+import com.jack.thymeleaf.rediscache.dao.PersonRepository;
+import com.jack.thymeleaf.rediscache.domain.Person;
+import com.jack.thymeleaf.rediscache.service.DemoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cache.annotation.CacheEvict;
 import org.springframework.cache.annotation.CachePut;
