@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/actuator/actuator.iml" filepath="$PROJECT_DIR$/actuator/actuator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cache-redis/cache-redis.iml" filepath="$PROJECT_DIR$/cache-redis/cache-redis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cache-simple/cache-simple.iml" filepath="$PROJECT_DIR$/cache-simple/cache-simple.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo/demo.iml" filepath="$PROJECT_DIR$/demo/demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/druid/druid.iml" filepath="$PROJECT_DIR$/druid/druid.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka/eureka.iml" filepath="$PROJECT_DIR$/eureka/eureka.iml" />
@@ -14,7 +16,6 @@
       <module fileurl="file://$PROJECT_DIR$/mybatis-redis/mybatis-redis.iml" filepath="$PROJECT_DIR$/mybatis-redis/mybatis-redis.iml" />
       <module fileurl="file://$PROJECT_DIR$/parent.iml" filepath="$PROJECT_DIR$/parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/poms/poms.iml" filepath="$PROJECT_DIR$/poms/poms.iml" />
-      <module fileurl="file://$PROJECT_DIR$/redis-cache/redis-cache.iml" filepath="$PROJECT_DIR$/redis-cache/redis-cache.iml" />
       <module fileurl="file://$PROJECT_DIR$/spark/spark.iml" filepath="$PROJECT_DIR$/spark/spark.iml" />
       <module fileurl="file://$PROJECT_DIR$/thymeleaf/thymeleaf.iml" filepath="$PROJECT_DIR$/thymeleaf/thymeleaf.iml" />
       <module fileurl="file://$PROJECT_DIR$/zuul/zuul.iml" filepath="$PROJECT_DIR$/zuul/zuul.iml" />

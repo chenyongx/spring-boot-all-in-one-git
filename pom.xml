@@ -44,7 +44,8 @@
         <module>eureka</module>
         <module>eureka2</module>
         <module>demo</module>
-        <module>redis-cache</module>
+        <module>cache-redis</module>
+        <module>cache-simple</module>
         <module>mybatis-redis</module>
         <module>druid</module>
         <module>actuator</module>
@@ -68,6 +69,21 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.h2database</groupId>
+            <artifactId>h2</artifactId>
         </dependency>
 
         <dependency>

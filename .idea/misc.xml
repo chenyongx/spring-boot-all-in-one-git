@@ -13,6 +13,7 @@
         <option value="$PROJECT_DIR$/mybatis-redis/pom.xml" />
         <option value="$PROJECT_DIR$/guava/pom.xml" />
         <option value="$PROJECT_DIR$/poms/pom.xml" />
+        <option value="$PROJECT_DIR$/redis-cache/pom.xml" />
       </list>
     </option>
   </component>

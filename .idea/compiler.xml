@@ -8,6 +8,8 @@
         <outputRelativeToContentRoot value="true" />
         <module name="actuator" />
         <module name="allInOne-mybatis" />
+        <module name="cache-redis" />
+        <module name="cache-simple" />
         <module name="demo" />
         <module name="druid" />
         <module name="eureka" />
@@ -26,6 +28,8 @@
     <bytecodeTargetLevel>
       <module name="actuator" target="1.8" />
       <module name="allInOne-mybatis" target="1.8" />
+      <module name="cache-redis" target="1.8" />
+      <module name="cache-simple" target="1.8" />
       <module name="demo" target="1.8" />
       <module name="demo2" target="1.8" />
       <module name="druid" target="1.8" />
