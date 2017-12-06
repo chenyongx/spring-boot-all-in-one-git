@@ -9,7 +9,6 @@
         <module name="actuator" />
         <module name="allInOne-mybatis" />
         <module name="demo" />
-        <module name="demo2" />
         <module name="druid" />
         <module name="eureka" />
         <module name="eureka2" />
@@ -38,9 +37,11 @@
       <module name="mybatis" target="1.8" />
       <module name="mybatis-redis" target="1.8" />
       <module name="parent" target="1.8" />
+      <module name="poms" target="1.5" />
       <module name="redis-cache" target="1.8" />
       <module name="spark" target="1.8" />
       <module name="spring-boot-all-in-one" target="1.8" />
+      <module name="spring-boot-all-in-one-git" target="1.5" />
       <module name="thymeleaf" target="1.8" />
       <module name="thymeleaf-demo" target="1.8" />
       <module name="zuul" target="1.8" />
