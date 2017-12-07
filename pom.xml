@@ -41,18 +41,21 @@
     <modules>
         <module>poms</module>
 
-        <module>spring-boot-cache-redis</module>
-        <module>spring-boot-cache-simple</module>
         <module>demo</module>
         <module>maven-pom-demo</module>
-        <module>spring-mvc-demo</module>
         <module>spark</module>
+
+        <module>thymeleaf</module>
+
+        <module>spring-mvc-demo</module>
+
+        <module>spring-data-cache-redis</module>
+        <module>spring-data-cache-simple</module>
         <module>spring-data-mybatis</module>
         <module>spring-data-mybatis-redis</module>
         <module>spring-data-jpa-h2-druid</module>
         <module>spring-data-rest</module>
         <module>spring-data-transactional</module>
-        <module>thymeleaf</module>
         <module>spring-cloud-eureka2</module>
         <module>spring-cloud-eureka</module>
         <module>spring-cloud-zuul</module>
