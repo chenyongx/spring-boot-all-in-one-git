@@ -41,22 +41,21 @@
     <modules>
         <module>poms</module>
 
-        <module>actuator</module>
-        <module>cache-redis</module>
-        <module>cache-simple</module>
+        <module>spring-boot-cache-redis</module>
+        <module>spring-boot-cache-simple</module>
         <module>demo</module>
-        <module>eureka2</module>
-        <module>eureka</module>
-        <module>guava</module>
         <module>maven-pom-demo</module>
         <module>spring-mvc-demo</module>
-        <module>mybatis-redis</module>
-        <module>mybatis</module>
         <module>spark</module>
-        <module>spring-data/jpa-h2-druid</module>
-        <module>spring-data/spring-data-rest</module>
+        <module>spring-data-mybatis</module>
+        <module>spring-data-mybatis-redis</module>
+        <module>spring-data-jpa-h2-druid</module>
+        <module>spring-data-rest</module>
+        <module>spring-data-transactional</module>
         <module>thymeleaf</module>
-        <module>zuul</module>
+        <module>spring-cloud-eureka2</module>
+        <module>spring-cloud-eureka</module>
+        <module>spring-cloud-zuul</module>
     </modules>
 
     <properties>
