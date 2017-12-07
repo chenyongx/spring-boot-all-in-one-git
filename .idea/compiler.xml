@@ -18,8 +18,10 @@
         <module name="spring-data-cache-redis" />
         <module name="spring-data-cache-simple" />
         <module name="spring-data-jpa-h2-druid" />
+        <module name="spring-data-mongodb" />
         <module name="spring-data-mybatis" />
         <module name="spring-data-mybatis-redis" />
+        <module name="spring-data-redis" />
         <module name="spring-data-rest" />
         <module name="spring-data-transactional" />
         <module name="spring-mvc-demo" />
@@ -42,8 +44,10 @@
       <module name="spring-data-cache-redis" target="1.8" />
       <module name="spring-data-cache-simple" target="1.8" />
       <module name="spring-data-jpa-h2-druid" target="1.8" />
+      <module name="spring-data-mongodb" target="1.8" />
       <module name="spring-data-mybatis" target="1.8" />
       <module name="spring-data-mybatis-redis" target="1.8" />
+      <module name="spring-data-redis" target="1.8" />
       <module name="spring-data-rest" target="1.8" />
       <module name="spring-data-transactional" target="1.8" />
       <module name="spring-mvc-demo" target="1.8" />

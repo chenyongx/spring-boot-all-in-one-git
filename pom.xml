@@ -56,6 +56,8 @@
         <module>spring-data-jpa-h2-druid</module>
         <module>spring-data-rest</module>
         <module>spring-data-transactional</module>
+        <module>spring-data-mongodb</module>
+        <module>spring-data-redis</module>
         <module>spring-cloud-eureka2</module>
         <module>spring-cloud-eureka</module>
         <module>spring-cloud-zuul</module>
