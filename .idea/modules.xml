@@ -10,13 +10,15 @@
       <module fileurl="file://$PROJECT_DIR$/eureka/eureka.iml" filepath="$PROJECT_DIR$/eureka/eureka.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka2/eureka2.iml" filepath="$PROJECT_DIR$/eureka2/eureka2.iml" />
       <module fileurl="file://$PROJECT_DIR$/guava/guava.iml" filepath="$PROJECT_DIR$/guava/guava.iml" />
-      <module fileurl="file://$PROJECT_DIR$/jpa-h2/jpa-h2.iml" filepath="$PROJECT_DIR$/jpa-h2/jpa-h2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-data/jpa-h2/jpa-h2.iml" filepath="$PROJECT_DIR$/spring-data/jpa-h2/jpa-h2.iml" />
       <module fileurl="file://$PROJECT_DIR$/maven-pom-demo/maven-pom-demo.iml" filepath="$PROJECT_DIR$/maven-pom-demo/maven-pom-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/mybatis/mybatis.iml" filepath="$PROJECT_DIR$/mybatis/mybatis.iml" />
       <module fileurl="file://$PROJECT_DIR$/mybatis-redis/mybatis-redis.iml" filepath="$PROJECT_DIR$/mybatis-redis/mybatis-redis.iml" />
-      <module fileurl="file://$PROJECT_DIR$/parent.iml" filepath="$PROJECT_DIR$/parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/poms/poms.iml" filepath="$PROJECT_DIR$/poms/poms.iml" />
       <module fileurl="file://$PROJECT_DIR$/spark/spark.iml" filepath="$PROJECT_DIR$/spark/spark.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-all-in-one-git.iml" filepath="$PROJECT_DIR$/spring-boot-all-in-one-git.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-data/spring-data-rest/spring-data-rest.iml" filepath="$PROJECT_DIR$/spring-data/spring-data-rest/spring-data-rest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-mvc-demo/spring-mvc-demo.iml" filepath="$PROJECT_DIR$/spring-mvc-demo/spring-mvc-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/thymeleaf/thymeleaf.iml" filepath="$PROJECT_DIR$/thymeleaf/thymeleaf.iml" />
       <module fileurl="file://$PROJECT_DIR$/zuul/zuul.iml" filepath="$PROJECT_DIR$/zuul/zuul.iml" />
     </modules>

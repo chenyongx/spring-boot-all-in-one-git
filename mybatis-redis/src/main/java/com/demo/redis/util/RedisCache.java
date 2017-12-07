@@ -14,7 +14,6 @@ import java.util.concurrent.locks.ReentrantReadWriteLock;
 
 @Slf4j
 public class RedisCache implements Cache {
-//  private static final Logger log = LoggerFactory.getLogger(RedisCache.class);
 
     private final ReadWriteLock readWriteLock=new ReentrantReadWriteLock();
     private final String id;

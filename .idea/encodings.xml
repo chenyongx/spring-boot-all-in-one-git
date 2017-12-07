@@ -10,13 +10,15 @@
     <file url="file://$PROJECT_DIR$/eureka" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka2" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/guava" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/jpa-h2" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/maven-pom-demo" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mybatis" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mybatis-redis" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mybatis/src/main/resources/application.yml" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/poms" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spark" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-data/jpa-h2" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-data/spring-data-rest" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-mvc-demo" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/thymeleaf" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/zuul" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />

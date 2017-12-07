@@ -21,6 +21,8 @@
         <module name="mybatis-redis" />
         <module name="redis-cache" />
         <module name="spark" />
+        <module name="spring-data-rest" />
+        <module name="spring-mvc-demo" />
         <module name="thymeleaf" />
         <module name="zuul" />
       </profile>
@@ -38,6 +40,7 @@
       <module name="guava" target="1.8" />
       <module name="jpa-h2" target="1.8" />
       <module name="maven-pom-demo" target="1.8" />
+      <module name="mvc-demo" target="1.8" />
       <module name="mybatis" target="1.8" />
       <module name="mybatis-redis" target="1.8" />
       <module name="parent" target="1.8" />
@@ -45,7 +48,9 @@
       <module name="redis-cache" target="1.8" />
       <module name="spark" target="1.8" />
       <module name="spring-boot-all-in-one" target="1.8" />
-      <module name="spring-boot-all-in-one-git" target="1.5" />
+      <module name="spring-boot-all-in-one-git" target="1.8" />
+      <module name="spring-data-rest" target="1.8" />
+      <module name="spring-mvc-demo" target="1.8" />
       <module name="thymeleaf" target="1.8" />
       <module name="thymeleaf-demo" target="1.8" />
       <module name="zuul" target="1.8" />

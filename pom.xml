@@ -39,21 +39,25 @@
     </dependencyManagement>
 
     <modules>
-        <module>mybatis</module>
-        <module>zuul</module>
-        <module>eureka</module>
-        <module>eureka2</module>
-        <module>demo</module>
+        <module>poms</module>
+
+        <module>actuator</module>
         <module>cache-redis</module>
         <module>cache-simple</module>
-        <module>mybatis-redis</module>
+        <module>demo</module>
         <module>druid</module>
-        <module>actuator</module>
-        <module>jpa-h2</module>
-        <module>spark</module>
-        <module>maven-pom-demo</module>
+        <module>eureka2</module>
+        <module>eureka</module>
         <module>guava</module>
+        <module>maven-pom-demo</module>
+        <module>spring-mvc-demo</module>
+        <module>mybatis-redis</module>
+        <module>mybatis</module>
+        <module>spark</module>
+        <module>spring-data/jpa-h2</module>
+        <module>spring-data/spring-data-rest</module>
         <module>thymeleaf</module>
+        <module>zuul</module>
     </modules>
 
     <properties>
@@ -77,6 +81,12 @@
         </dependency>
 
         <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-log4j2</artifactId>
+        </dependency>
+
+
+        <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
         </dependency>
@@ -94,6 +104,26 @@
         <dependency>
             <groupId>com.google.guava</groupId>
             <artifactId>guava</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger2</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger-ui</artifactId>
         </dependency>
     </dependencies>
 
