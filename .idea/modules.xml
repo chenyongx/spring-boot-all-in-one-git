@@ -6,11 +6,11 @@
       <module fileurl="file://$PROJECT_DIR$/cache-redis/cache-redis.iml" filepath="$PROJECT_DIR$/cache-redis/cache-redis.iml" />
       <module fileurl="file://$PROJECT_DIR$/cache-simple/cache-simple.iml" filepath="$PROJECT_DIR$/cache-simple/cache-simple.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo/demo.iml" filepath="$PROJECT_DIR$/demo/demo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/druid/druid.iml" filepath="$PROJECT_DIR$/druid/druid.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka/eureka.iml" filepath="$PROJECT_DIR$/eureka/eureka.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka2/eureka2.iml" filepath="$PROJECT_DIR$/eureka2/eureka2.iml" />
       <module fileurl="file://$PROJECT_DIR$/guava/guava.iml" filepath="$PROJECT_DIR$/guava/guava.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring-data/jpa-h2/jpa-h2.iml" filepath="$PROJECT_DIR$/spring-data/jpa-h2/jpa-h2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-data/jpa-h2-druid/jpa-h2.iml" filepath="$PROJECT_DIR$/spring-data/jpa-h2-druid/jpa-h2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-data/jpa-h2-druid/jpa-h2-druid.iml" filepath="$PROJECT_DIR$/spring-data/jpa-h2-druid/jpa-h2-druid.iml" />
       <module fileurl="file://$PROJECT_DIR$/maven-pom-demo/maven-pom-demo.iml" filepath="$PROJECT_DIR$/maven-pom-demo/maven-pom-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/mybatis/mybatis.iml" filepath="$PROJECT_DIR$/mybatis/mybatis.iml" />
       <module fileurl="file://$PROJECT_DIR$/mybatis-redis/mybatis-redis.iml" filepath="$PROJECT_DIR$/mybatis-redis/mybatis-redis.iml" />

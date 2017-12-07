@@ -45,7 +45,6 @@
         <module>cache-redis</module>
         <module>cache-simple</module>
         <module>demo</module>
-        <module>druid</module>
         <module>eureka2</module>
         <module>eureka</module>
         <module>guava</module>
@@ -54,7 +53,7 @@
         <module>mybatis-redis</module>
         <module>mybatis</module>
         <module>spark</module>
-        <module>spring-data/jpa-h2</module>
+        <module>spring-data/jpa-h2-druid</module>
         <module>spring-data/spring-data-rest</module>
         <module>thymeleaf</module>
         <module>zuul</module>

@@ -11,11 +11,11 @@
         <module name="cache-redis" />
         <module name="cache-simple" />
         <module name="demo" />
-        <module name="druid" />
         <module name="eureka" />
         <module name="eureka2" />
         <module name="guava" />
         <module name="jpa-h2" />
+        <module name="jpa-h2-druid" />
         <module name="maven-pom-demo" />
         <module name="mybatis" />
         <module name="mybatis-redis" />
@@ -39,6 +39,7 @@
       <module name="eureka2" target="1.8" />
       <module name="guava" target="1.8" />
       <module name="jpa-h2" target="1.8" />
+      <module name="jpa-h2-druid" target="1.8" />
       <module name="maven-pom-demo" target="1.8" />
       <module name="mvc-demo" target="1.8" />
       <module name="mybatis" target="1.8" />
