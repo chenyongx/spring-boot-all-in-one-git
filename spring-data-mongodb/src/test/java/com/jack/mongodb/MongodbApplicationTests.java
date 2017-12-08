@@ -1,4 +1,4 @@
-package com.jack.ch8_6_1;
+package com.jack.mongodb;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -7,9 +7,9 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.test.context.web.WebAppConfiguration;
 
 @RunWith(SpringJUnit4ClassRunner.class)
-@SpringBootTest(classes = Ch861Application.class)
+@SpringBootTest(classes = MongodbApplication.class)
 @WebAppConfiguration
-public class Ch861ApplicationTests {
+public class MongodbApplicationTests {
 
     @Test
     public void contextLoads() {

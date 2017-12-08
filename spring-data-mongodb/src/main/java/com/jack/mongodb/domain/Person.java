@@ -1,4 +1,4 @@
-package com.jack.ch8_6_1.domain;
+package com.jack.mongodb.domain;
 
 import java.util.Collection;
 import java.util.LinkedHashSet;

@@ -1,4 +1,4 @@
-package com.jack.ch8_6_1.domain;
+package com.jack.mongodb.domain;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

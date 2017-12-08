@@ -1,6 +1,6 @@
-package com.jack.ch8_6_1.dao;
+package com.jack.mongodb.dao;
 
-import com.jack.ch8_6_1.domain.Person;
+import com.jack.mongodb.domain.Person;
 import java.util.List;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.data.mongodb.repository.Query;

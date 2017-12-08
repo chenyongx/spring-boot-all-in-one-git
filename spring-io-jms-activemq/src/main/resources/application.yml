@@ -1,0 +1,4 @@
+spring:
+    activemq:
+#        嵌入式activemq不需要配置url
+        broker-url: tcp://localhost:61616

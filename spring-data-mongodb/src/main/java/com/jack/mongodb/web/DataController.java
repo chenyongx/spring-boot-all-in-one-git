@@ -1,8 +1,8 @@
-package com.jack.ch8_6_1.web;
+package com.jack.mongodb.web;
 
-import com.jack.ch8_6_1.dao.PersonRepository;
-import com.jack.ch8_6_1.domain.Location;
-import com.jack.ch8_6_1.domain.Person;
+import com.jack.mongodb.dao.PersonRepository;
+import com.jack.mongodb.domain.Location;
+import com.jack.mongodb.domain.Person;
 import java.util.Collection;
 import java.util.LinkedHashSet;
 import java.util.List;

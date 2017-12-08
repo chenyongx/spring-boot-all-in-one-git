@@ -4,12 +4,9 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/demo/demo.iml" filepath="$PROJECT_DIR$/demo/demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/maven-pom-demo/maven-pom-demo.iml" filepath="$PROJECT_DIR$/maven-pom-demo/maven-pom-demo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring-data-mybatis/mybatis.iml" filepath="$PROJECT_DIR$/spring-data-mybatis/mybatis.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring-data-mybatis-redis/mybatis-redis.iml" filepath="$PROJECT_DIR$/spring-data-mybatis-redis/mybatis-redis.iml" />
       <module fileurl="file://$PROJECT_DIR$/poms/poms.iml" filepath="$PROJECT_DIR$/poms/poms.iml" />
       <module fileurl="file://$PROJECT_DIR$/spark/spark.iml" filepath="$PROJECT_DIR$/spark/spark.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/spring-boot-all-in-one-git.iml" filepath="$PROJECT_DIR$/.idea/spring-boot-all-in-one-git.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring-data-cache-redis/spring-boot-cache-redis.iml" filepath="$PROJECT_DIR$/spring-data-cache-redis/spring-boot-cache-redis.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-eureka/spring-cloud-eureka.iml" filepath="$PROJECT_DIR$/spring-cloud-eureka/spring-cloud-eureka.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-eureka2/spring-cloud-eureka2.iml" filepath="$PROJECT_DIR$/spring-cloud-eureka2/spring-cloud-eureka2.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-zuul/spring-cloud-zuul.iml" filepath="$PROJECT_DIR$/spring-cloud-zuul/spring-cloud-zuul.iml" />
@@ -22,6 +19,7 @@
       <module fileurl="file://$PROJECT_DIR$/spring-data-redis/spring-data-redis.iml" filepath="$PROJECT_DIR$/spring-data-redis/spring-data-redis.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-data-rest/spring-data-rest.iml" filepath="$PROJECT_DIR$/spring-data-rest/spring-data-rest.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-data-transactional/spring-data-transactional.iml" filepath="$PROJECT_DIR$/spring-data-transactional/spring-data-transactional.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-io-jms-activemq/spring-io-jms-activemq.iml" filepath="$PROJECT_DIR$/spring-io-jms-activemq/spring-io-jms-activemq.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-mvc-demo/spring-mvc-demo.iml" filepath="$PROJECT_DIR$/spring-mvc-demo/spring-mvc-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/thymeleaf/thymeleaf.iml" filepath="$PROJECT_DIR$/thymeleaf/thymeleaf.iml" />
     </modules>

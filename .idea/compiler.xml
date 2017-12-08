@@ -24,6 +24,7 @@
         <module name="spring-data-redis" />
         <module name="spring-data-rest" />
         <module name="spring-data-transactional" />
+        <module name="spring-io-jms-activemq" />
         <module name="spring-mvc-demo" />
         <module name="thymeleaf" />
       </profile>
@@ -50,6 +51,7 @@
       <module name="spring-data-redis" target="1.8" />
       <module name="spring-data-rest" target="1.8" />
       <module name="spring-data-transactional" target="1.8" />
+      <module name="spring-io-jms-activemq" target="1.8" />
       <module name="spring-mvc-demo" target="1.8" />
       <module name="thymeleaf" target="1.8" />
     </bytecodeTargetLevel>

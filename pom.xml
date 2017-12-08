@@ -58,6 +58,9 @@
         <module>spring-data-transactional</module>
         <module>spring-data-mongodb</module>
         <module>spring-data-redis</module>
+
+        <module>spring-io-jms-activemq</module>
+
         <module>spring-cloud-eureka2</module>
         <module>spring-cloud-eureka</module>
         <module>spring-cloud-zuul</module>

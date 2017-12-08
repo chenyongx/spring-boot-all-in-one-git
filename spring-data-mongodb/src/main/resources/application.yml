@@ -1,2 +1,8 @@
-{
-    }
+spring:
+  data:
+    mongodb:
+      uri: mongodb://root:Jack123!@dds-wz9528547cfc95141.mongodb.rds.aliyuncs.com:3717/test
+#      host: dds-wz9528547cfc95141.mongodb.rds.aliyuncs.com:3717
+#      username: root
+#      password: Jack123!
+#      database: test
