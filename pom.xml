@@ -47,13 +47,13 @@
 
         <module>thymeleaf</module>
 
-
         <module>spring-mvc-demo</module>
 
         <module>spring-data-cache-redis</module>
         <module>spring-data-cache-simple</module>
         <module>spring-data-mybatis</module>
         <module>spring-data-mybatis-redis</module>
+        <module>spring-data-jpa-access</module>
         <module>spring-data-jpa-h2-druid</module>
         <module>spring-data-rest</module>
         <module>spring-data-transactional</module>

@@ -1,0 +1,9 @@
+java.util.logging.config.file=/mnt/tomcat/conf/logging.properties|/mnt/tomcat/bin/startup.sh|http://118.190.117.113:8090/dubbo-admin/|401
+java -Xms256m -Xmx512m -jar /mnt/dubbo/rest/coros-rest-2.0.jar|java -Xms256m -Xmx512m -jar /mnt/dubbo/rest/coros-rest-2.0.jar|http://118.190.117.113:8990/coros/view/login.html|200
+java -Xms256m -Xmx512m -jar /mnt/dubbo/user/coros-user-2.0.jar|java -Xms256m -Xmx512m -jar /mnt/dubbo/user/coros-user-2.0.jar|
+java -Xms256m -Xmx512m -jar /mnt/dubbo/data/coros-data-2.0.jar|java -Xms256m -Xmx512m -jar /mnt/dubbo/data/coros-data-2.0.jar|
+java -Xms256m -Xmx512m -jar /mnt/dubbo/device/coros-device-2.0.jar|java -Xms256m -Xmx512m -jar /mnt/dubbo/device/coros-device-2.0.jar|
+java -Xms256m -Xmx512m -jar /mnt/dubbo2/rest/coros-rest-2.0.jar|java -Xms256m -Xmx512m -jar /mnt/dubbo2/rest/coros-rest-2.0.jar|http://118.190.117.113:9990/coros/view/login.html|200
+java -Xms256m -Xmx512m -jar /mnt/dubbo2/user/coros-user-2.0.jar|java -Xms256m -Xmx512m -jar /mnt/dubbo2/user/coros-user-2.0.jar|
+java -Xms256m -Xmx512m -jar /mnt/dubbo2/data/coros-data-2.0.jar|java -Xms256m -Xmx512m -jar /mnt/dubbo2/data/coros-data-2.0.jar|
+java -Xms256m -Xmx512m -jar /mnt/dubbo2/device/coros-device-2.0.jar|java -Xms256m -Xmx512m -jar /mnt/dubbo2/device/coros-device-2.0.jar

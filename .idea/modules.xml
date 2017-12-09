@@ -6,12 +6,13 @@
       <module fileurl="file://$PROJECT_DIR$/maven-pom-demo/maven-pom-demo.iml" filepath="$PROJECT_DIR$/maven-pom-demo/maven-pom-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/poms/poms.iml" filepath="$PROJECT_DIR$/poms/poms.iml" />
       <module fileurl="file://$PROJECT_DIR$/spark/spark.iml" filepath="$PROJECT_DIR$/spark/spark.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/spring-boot-all-in-one-git.iml" filepath="$PROJECT_DIR$/.idea/spring-boot-all-in-one-git.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-all-in-one-git.iml" filepath="$PROJECT_DIR$/spring-boot-all-in-one-git.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-eureka/spring-cloud-eureka.iml" filepath="$PROJECT_DIR$/spring-cloud-eureka/spring-cloud-eureka.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-eureka2/spring-cloud-eureka2.iml" filepath="$PROJECT_DIR$/spring-cloud-eureka2/spring-cloud-eureka2.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-zuul/spring-cloud-zuul.iml" filepath="$PROJECT_DIR$/spring-cloud-zuul/spring-cloud-zuul.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-data-cache-redis/spring-data-cache-redis.iml" filepath="$PROJECT_DIR$/spring-data-cache-redis/spring-data-cache-redis.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-data-cache-simple/spring-data-cache-simple.iml" filepath="$PROJECT_DIR$/spring-data-cache-simple/spring-data-cache-simple.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-data-jpa-access/spring-data-jpa-access.iml" filepath="$PROJECT_DIR$/spring-data-jpa-access/spring-data-jpa-access.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-data-jpa-h2-druid/spring-data-jpa-h2-druid.iml" filepath="$PROJECT_DIR$/spring-data-jpa-h2-druid/spring-data-jpa-h2-druid.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-data-mongodb/spring-data-mongodb.iml" filepath="$PROJECT_DIR$/spring-data-mongodb/spring-data-mongodb.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-data-mybatis/spring-data-mybatis.iml" filepath="$PROJECT_DIR$/spring-data-mybatis/spring-data-mybatis.iml" />
