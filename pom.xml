@@ -59,6 +59,7 @@
         <module>spring-data-transactional</module>
         <module>spring-data-mongodb</module>
         <module>spring-data-redis</module>
+        <module>spring-data-elasticsearch</module>
 
         <module>spring-io-jms-activemq</module>
 

@@ -12,6 +12,7 @@
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-zuul/spring-cloud-zuul.iml" filepath="$PROJECT_DIR$/spring-cloud-zuul/spring-cloud-zuul.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-data-cache-redis/spring-data-cache-redis.iml" filepath="$PROJECT_DIR$/spring-data-cache-redis/spring-data-cache-redis.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-data-cache-simple/spring-data-cache-simple.iml" filepath="$PROJECT_DIR$/spring-data-cache-simple/spring-data-cache-simple.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-data-elasticsearch/spring-data-elasticsearch.iml" filepath="$PROJECT_DIR$/spring-data-elasticsearch/spring-data-elasticsearch.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-data-jpa-access/spring-data-jpa-access.iml" filepath="$PROJECT_DIR$/spring-data-jpa-access/spring-data-jpa-access.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-data-jpa-h2-druid/spring-data-jpa-h2-druid.iml" filepath="$PROJECT_DIR$/spring-data-jpa-h2-druid/spring-data-jpa-h2-druid.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-data-mongodb/spring-data-mongodb.iml" filepath="$PROJECT_DIR$/spring-data-mongodb/spring-data-mongodb.iml" />

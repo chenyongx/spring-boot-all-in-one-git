@@ -8,15 +8,13 @@
         <outputRelativeToContentRoot value="true" />
         <module name="demo" />
         <module name="maven-pom-demo" />
-        <module name="mybatis" />
-        <module name="mybatis-redis" />
         <module name="spark" />
-        <module name="spring-boot-cache-redis" />
         <module name="spring-cloud-eureka" />
         <module name="spring-cloud-eureka2" />
         <module name="spring-cloud-zuul" />
         <module name="spring-data-cache-redis" />
         <module name="spring-data-cache-simple" />
+        <module name="spring-data-elasticsearch" />
         <module name="spring-data-jpa-access" />
         <module name="spring-data-jpa-h2-druid" />
         <module name="spring-data-mongodb" />
@@ -33,18 +31,15 @@
     <bytecodeTargetLevel>
       <module name="demo" target="1.8" />
       <module name="maven-pom-demo" target="1.8" />
-      <module name="mybatis" target="1.8" />
-      <module name="mybatis-redis" target="1.8" />
       <module name="poms" target="1.5" />
       <module name="spark" target="1.8" />
       <module name="spring-boot-all-in-one-git" target="1.8" />
-      <module name="spring-boot-cache-redis" target="1.8" />
-      <module name="spring-boot-cache-simple" target="1.8" />
       <module name="spring-cloud-eureka" target="1.8" />
       <module name="spring-cloud-eureka2" target="1.8" />
       <module name="spring-cloud-zuul" target="1.8" />
       <module name="spring-data-cache-redis" target="1.8" />
       <module name="spring-data-cache-simple" target="1.8" />
+      <module name="spring-data-elasticsearch" target="1.8" />
       <module name="spring-data-jpa-access" target="1.8" />
       <module name="spring-data-jpa-h2-druid" target="1.8" />
       <module name="spring-data-mongodb" target="1.8" />
