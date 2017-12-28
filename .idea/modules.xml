@@ -3,9 +3,13 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/demo/demo.iml" filepath="$PROJECT_DIR$/demo/demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-admin-server/demo02.iml" filepath="$PROJECT_DIR$/spring-boot-admin-server/demo02.iml" />
       <module fileurl="file://$PROJECT_DIR$/maven-pom-demo/maven-pom-demo.iml" filepath="$PROJECT_DIR$/maven-pom-demo/maven-pom-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/poms/poms.iml" filepath="$PROJECT_DIR$/poms/poms.iml" />
       <module fileurl="file://$PROJECT_DIR$/spark/spark.iml" filepath="$PROJECT_DIR$/spark/spark.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-admin-server/spring-boot-admin.iml" filepath="$PROJECT_DIR$/spring-boot-admin-server/spring-boot-admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-admin-client/spring-boot-admin-client.iml" filepath="$PROJECT_DIR$/spring-boot-admin-client/spring-boot-admin-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-admin-server/spring-boot-admin-server.iml" filepath="$PROJECT_DIR$/spring-boot-admin-server/spring-boot-admin-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-all-in-one-git.iml" filepath="$PROJECT_DIR$/spring-boot-all-in-one-git.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-eureka/spring-cloud-eureka.iml" filepath="$PROJECT_DIR$/spring-cloud-eureka/spring-cloud-eureka.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-eureka2/spring-cloud-eureka2.iml" filepath="$PROJECT_DIR$/spring-cloud-eureka2/spring-cloud-eureka2.iml" />

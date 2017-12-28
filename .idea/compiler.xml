@@ -7,8 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="demo" />
+        <module name="demo02" />
         <module name="maven-pom-demo" />
         <module name="spark" />
+        <module name="spring-boot-admin" />
+        <module name="spring-boot-admin-client" />
+        <module name="spring-boot-admin-server" />
         <module name="spring-cloud-eureka" />
         <module name="spring-cloud-eureka2" />
         <module name="spring-cloud-zuul" />
@@ -30,9 +34,13 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="demo" target="1.8" />
+      <module name="demo02" target="1.8" />
       <module name="maven-pom-demo" target="1.8" />
       <module name="poms" target="1.5" />
       <module name="spark" target="1.8" />
+      <module name="spring-boot-admin" target="1.8" />
+      <module name="spring-boot-admin-client" target="1.8" />
+      <module name="spring-boot-admin-server" target="1.8" />
       <module name="spring-boot-all-in-one-git" target="1.8" />
       <module name="spring-cloud-eureka" target="1.8" />
       <module name="spring-cloud-eureka2" target="1.8" />

@@ -63,6 +63,9 @@
 
         <module>spring-io-jms-activemq</module>
 
+        <module>spring-boot-admin-server</module>
+        <module>spring-boot-admin-client</module>
+
         <module>spring-cloud-eureka2</module>
         <module>spring-cloud-eureka</module>
         <module>spring-cloud-zuul</module>
@@ -75,6 +78,7 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <spring-boot.version>1.5.9.RELEASE</spring-boot.version>
         <spring-cloud.version>Edgware.RELEASE</spring-cloud.version>
+        <spring-boot-admin.version>1.5.6</spring-boot-admin.version>
     </properties>
 
     <dependencies>
@@ -86,6 +90,7 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
         </dependency>
 
         <dependency>
