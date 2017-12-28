@@ -15,10 +15,5 @@ security:
     name: admin
     password: 123456
 
-logging:
-  level: debug
-
-
-
-
-
+#logging:
+#  level: debug
