@@ -49,6 +49,8 @@
 
         <module>spring-mvc-demo</module>
 
+        <module>spring-boot-validate</module>
+
         <module>spring-data-cache-redis</module>
         <module>spring-data-cache-simple</module>
         <module>spring-data-mybatis</module>

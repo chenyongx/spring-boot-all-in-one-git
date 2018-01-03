@@ -4,9 +4,11 @@
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/demo" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/maven-pom-demo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/poms" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spark" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-admin-client" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-admin-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-validate" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-eureka" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-eureka2" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-zuul" charset="UTF-8" />
