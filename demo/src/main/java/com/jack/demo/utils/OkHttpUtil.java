@@ -1,4 +1,4 @@
-package com.jack.utils;
+package com.jack.demo.utils;
 
 import java.io.IOException;
 import okhttp3.OkHttpClient;

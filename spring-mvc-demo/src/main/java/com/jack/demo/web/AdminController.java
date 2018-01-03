@@ -1,7 +1,7 @@
-package com.jack.web;
+package com.jack.demo.web;
 
 import com.jack.annotation.DisableAuth;
-import com.jack.entity.Admin;
+import com.jack.demo.entity.Admin;
 import com.jack.exception.MessageKey;
 import com.jack.exception.JackException;
 import com.jack.service.AdminService;

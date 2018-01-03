@@ -1,4 +1,4 @@
-package com.jack.config;
+package com.jack.demo.config;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -36,7 +36,7 @@ public class SwaggerConfig {
             .parameterType("header").required(false).build();
         pars.add(tokenPar.build());
         return new Docket(DocumentationType.SWAGGER_2).apiInfo(getApiInfo()).select()
-            .apis(RequestHandlerSelectors.basePackage("com.jack.controller"))
+            .apis(RequestHandlerSelectors.basePackage("com.jack.demo.web"))
             .paths(PathSelectors.any()).build().globalOperationParameters(pars)
             .apiInfo(getApiInfo());
     }

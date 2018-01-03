@@ -1,6 +1,6 @@
 package com.jack.service;
 
-import com.jack.entity.Admin;
+import com.jack.demo.entity.Admin;
 import com.jack.exception.JackException;
 
 /**

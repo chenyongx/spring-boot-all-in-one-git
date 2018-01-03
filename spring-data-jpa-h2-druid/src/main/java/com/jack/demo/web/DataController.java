@@ -1,4 +1,4 @@
-package com.jack.web;
+package com.jack.demo.web;
 
 import com.jack.dao.PersonRepository;
 import com.jack.domain.Person;

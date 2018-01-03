@@ -1,5 +1,5 @@
-import com.jack.Application;
-import com.jack.utils.OkHttpUtil;
+import com.jack.demo.DemoApplication;
+import com.jack.demo.utils.OkHttpUtil;
 import java.io.IOException;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -15,7 +15,7 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
  * @date 2017/9/22
  */
 @RunWith(SpringJUnit4ClassRunner.class)
-@SpringBootTest(classes = Application.class)
+@SpringBootTest(classes = DemoApplication.class)
 public class TestOkHttp {
 
     @Test

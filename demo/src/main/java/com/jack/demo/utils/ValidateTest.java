@@ -1,4 +1,4 @@
-package com.jack.utils;
+package com.jack.demo.utils;
 
 import javax.validation.constraints.Size;
 import org.springframework.stereotype.Service;

@@ -1,6 +1,6 @@
 package com.jack.service;
 
-import com.jack.entity.Account;
+import com.jack.demo.entity.Account;
 import com.jack.exception.JackException;
 import java.util.Date;
 

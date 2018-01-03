@@ -1,4 +1,4 @@
-package com.jack.config;
+package com.jack.demo.config;
 
 import com.alibaba.druid.support.http.StatViewServlet;
 import com.alibaba.druid.support.http.WebStatFilter;

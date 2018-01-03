@@ -1,4 +1,4 @@
-package com.jack.entity;
+package com.jack.demo.entity;
 
 import java.io.Serializable;
 import java.util.Date;

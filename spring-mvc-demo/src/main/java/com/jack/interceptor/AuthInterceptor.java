@@ -1,7 +1,7 @@
 package com.jack.interceptor;
 
 import com.jack.annotation.DisableAuth;
-import com.jack.entity.Account;
+import com.jack.demo.entity.Account;
 import com.jack.exception.MessageKey;
 import com.jack.exception.JackException;
 import com.jack.service.AccountService;
