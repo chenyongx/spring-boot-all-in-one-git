@@ -1,14 +1,12 @@
-package com.example.demo.web;
+package com.jack.spark.web;
 
 import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class SampleController {
+public class SparkController {
     @RequestMapping("/")
     @ResponseBody
     String home() {
@@ -16,6 +14,6 @@ public class SampleController {
     }
 
     public static void main(String[] args) throws Exception {
-        SpringApplication.run(SampleController.class, args);
+        SpringApplication.run(SparkController.class, args);
     }
 }
