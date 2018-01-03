@@ -39,7 +39,7 @@ mybatis:
   #config-location: classpath:mybatis-config.xml
   #配置方式2
   # 配置映射类所在包名
-  type-aliases-package: com.demo.redis.dao.entity
+  type-aliases-package: com.jack.mybatis.redis.dao.entity
   # 配置mapper xml文件所在路径
   mapper-locations: classpath:mappers/*.xml
   configuration:

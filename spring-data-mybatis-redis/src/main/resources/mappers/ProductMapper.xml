@@ -2,19 +2,19 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.demo.redis.dao.mapper.ProductMapper">
-    <resultMap id="resultList" type="com.demo.redis.dao.entity.Product">
+<mapper namespace="com.jack.mybatis.redis.dao.mapper.ProductMapper">
+    <resultMap id="resultList" type="com.jack.mybatis.redis.dao.entity.Product">
     <id property="id" column="id"/>
         <result column="name" property="name"/>
         <result column="price" property="price"/>
     </resultMap>
     <!-- 开启基于redis的二级缓存 -->
-    <cache type="com.demo.redis.util.RedisCache"/>
+    <cache type="com.jack.mybatis.redis.util.RedisCache"/>
 
-    <insert id="save" parameterType="com.demo.redis.dao.entity.Product" keyProperty="id" useGeneratedKeys="true">
+    <insert id="save" parameterType="com.jack.mybatis.redis.dao.entity.Product" keyProperty="id" useGeneratedKeys="true">
         insert into  products (name,price) values (#{name},#{price})
     </insert>
-    <select id="select" resultType="com.demo.redis.dao.entity.Product">
+    <select id="select" resultType="com.jack.mybatis.redis.dao.entity.Product">
         SELECT * FROM products WHERE id=#{id} LIMIT 1
     </select>
     <select id="findByName" resultMap="resultList" parameterType="String">
@@ -22,7 +22,7 @@
     </select>
 
     <!--设置flushCache为true，这样在更新product信息时，能够自动失效缓存（本质上调用的是clear方法）。-->
-    <update id="update" parameterType="com.demo.redis.dao.entity.Product" flushCache="true">
+    <update id="update" parameterType="com.jack.mybatis.redis.dao.entity.Product" flushCache="true">
         UPDATE products SET name= #{name} ,price= #{price} WHERE  id= #{id} LIMIT 1
     </update>
 </mapper>

@@ -1,5 +1,6 @@
 package com.jack.activemq;
 
+import com.jack.activemq.service.Msg;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;

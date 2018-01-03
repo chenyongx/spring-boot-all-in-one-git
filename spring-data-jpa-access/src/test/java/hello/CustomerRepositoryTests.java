@@ -18,8 +18,8 @@ package hello;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-import hello.dao.CustomerRepository;
-import hello.entity.Customer;
+import com.jack.jpa.asscess.dao.CustomerRepository;
+import com.jack.jpa.asscess.entity.Customer;
 import java.util.List;
 import org.junit.Test;
 import org.junit.runner.RunWith;
