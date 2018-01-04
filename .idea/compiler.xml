@@ -30,6 +30,7 @@
         <module name="spring-data-transactional" />
         <module name="spring-io-jms-activemq" />
         <module name="spring-mvc-demo" />
+        <module name="spring-shell" />
         <module name="thymeleaf" />
       </profile>
     </annotationProcessing>
@@ -60,6 +61,7 @@
       <module name="spring-data-transactional" target="1.8" />
       <module name="spring-io-jms-activemq" target="1.8" />
       <module name="spring-mvc-demo" target="1.8" />
+      <module name="spring-shell" target="1.8" />
       <module name="thymeleaf" target="1.8" />
     </bytecodeTargetLevel>
   </component>
