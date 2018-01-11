@@ -1,4 +1,4 @@
-package com.jack.domain;
+package com.jack.mvc.jpa.h2.druid.domain;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;

@@ -1,8 +1,9 @@
-package com.jack.dao;
+package com.jack.mvc.jpa.h2.druid.dao;
 
 import java.util.List;
+
+import com.jack.mvc.jpa.h2.druid.domain.Person;
 import org.springframework.data.jpa.repository.JpaRepository;
-import com.jack.domain.Person;
 
 /**
  * @author yangyueming

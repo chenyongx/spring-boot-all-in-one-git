@@ -1,8 +1,9 @@
-package com.jack.demo.web;
+package com.jack.mvc.jpa.h2.druid.demo.web;
 
-import com.jack.dao.PersonRepository;
-import com.jack.domain.Person;
 import java.util.List;
+
+import com.jack.mvc.jpa.h2.druid.dao.PersonRepository;
+import com.jack.mvc.jpa.h2.druid.domain.Person;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
