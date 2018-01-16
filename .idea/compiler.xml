@@ -14,9 +14,6 @@
         <module name="spring-boot-admin-client" />
         <module name="spring-boot-admin-server" />
         <module name="spring-boot-validate" />
-        <module name="spring-cloud-eureka" />
-        <module name="spring-cloud-eureka2" />
-        <module name="spring-cloud-zuul" />
         <module name="spring-data-cache-redis" />
         <module name="spring-data-cache-simple" />
         <module name="spring-data-elasticsearch" />
@@ -29,6 +26,7 @@
         <module name="spring-data-rest" />
         <module name="spring-data-transactional" />
         <module name="spring-io-jms-activemq" />
+        <module name="spring-io-kafka" />
         <module name="spring-mvc-demo" />
         <module name="spring-shell" />
         <module name="thymeleaf" />
@@ -60,6 +58,7 @@
       <module name="spring-data-rest" target="1.8" />
       <module name="spring-data-transactional" target="1.8" />
       <module name="spring-io-jms-activemq" target="1.8" />
+      <module name="spring-io-kafka" target="1.8" />
       <module name="spring-mvc-demo" target="1.8" />
       <module name="spring-shell" target="1.8" />
       <module name="thymeleaf" target="1.8" />
