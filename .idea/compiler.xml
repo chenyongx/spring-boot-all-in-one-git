@@ -6,30 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="demo" />
         <module name="demo02" />
-        <module name="maven-pom-demo" />
-        <module name="spark" />
+        <module name="sharding-shark" />
         <module name="spring-boot-admin" />
-        <module name="spring-boot-admin-client" />
-        <module name="spring-boot-admin-server" />
-        <module name="spring-boot-validate" />
-        <module name="spring-data-cache-redis" />
-        <module name="spring-data-cache-simple" />
-        <module name="spring-data-elasticsearch" />
-        <module name="spring-data-jpa-access" />
-        <module name="spring-data-jpa-h2-druid" />
-        <module name="spring-data-mongodb" />
-        <module name="spring-data-mybatis" />
-        <module name="spring-data-mybatis-redis" />
-        <module name="spring-data-redis" />
-        <module name="spring-data-rest" />
-        <module name="spring-data-transactional" />
-        <module name="spring-io-jms-activemq" />
-        <module name="spring-io-kafka" />
-        <module name="spring-mvc-demo" />
-        <module name="spring-shell" />
-        <module name="thymeleaf" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -37,6 +16,7 @@
       <module name="demo02" target="1.8" />
       <module name="maven-pom-demo" target="1.8" />
       <module name="poms" target="1.8" />
+      <module name="sharding-shark" target="1.8" />
       <module name="spark" target="1.8" />
       <module name="spring-boot-admin" target="1.8" />
       <module name="spring-boot-admin-client" target="1.8" />

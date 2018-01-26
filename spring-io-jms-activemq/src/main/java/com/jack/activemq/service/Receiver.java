@@ -13,5 +13,4 @@ public class Receiver {
     public void receiveMessage(String message) {
         System.out.println("接受到: <" + message + ">");
     }
-
 }

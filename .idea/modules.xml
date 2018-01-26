@@ -2,30 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/demo/demo.iml" filepath="$PROJECT_DIR$/demo/demo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/maven-pom-demo/maven-pom-demo.iml" filepath="$PROJECT_DIR$/maven-pom-demo/maven-pom-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/poms/poms.iml" filepath="$PROJECT_DIR$/poms/poms.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spark/spark.iml" filepath="$PROJECT_DIR$/spark/spark.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring-boot-admin-client/spring-boot-admin-client.iml" filepath="$PROJECT_DIR$/spring-boot-admin-client/spring-boot-admin-client.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring-boot-admin-server/spring-boot-admin-server.iml" filepath="$PROJECT_DIR$/spring-boot-admin-server/spring-boot-admin-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sharding-shark/sharding-shark.iml" filepath="$PROJECT_DIR$/sharding-shark/sharding-shark.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-all-in-one-git.iml" filepath="$PROJECT_DIR$/spring-boot-all-in-one-git.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring-boot-validate/spring-boot-validate.iml" filepath="$PROJECT_DIR$/spring-boot-validate/spring-boot-validate.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring-data-cache-redis/spring-data-cache-redis.iml" filepath="$PROJECT_DIR$/spring-data-cache-redis/spring-data-cache-redis.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring-data-cache-simple/spring-data-cache-simple.iml" filepath="$PROJECT_DIR$/spring-data-cache-simple/spring-data-cache-simple.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring-data-elasticsearch/spring-data-elasticsearch.iml" filepath="$PROJECT_DIR$/spring-data-elasticsearch/spring-data-elasticsearch.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring-data-jpa-access/spring-data-jpa-access.iml" filepath="$PROJECT_DIR$/spring-data-jpa-access/spring-data-jpa-access.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring-data-jpa-h2-druid/spring-data-jpa-h2-druid.iml" filepath="$PROJECT_DIR$/spring-data-jpa-h2-druid/spring-data-jpa-h2-druid.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring-data-mongodb/spring-data-mongodb.iml" filepath="$PROJECT_DIR$/spring-data-mongodb/spring-data-mongodb.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring-data-mybatis/spring-data-mybatis.iml" filepath="$PROJECT_DIR$/spring-data-mybatis/spring-data-mybatis.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring-data-mybatis-redis/spring-data-mybatis-redis.iml" filepath="$PROJECT_DIR$/spring-data-mybatis-redis/spring-data-mybatis-redis.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring-data-redis/spring-data-redis.iml" filepath="$PROJECT_DIR$/spring-data-redis/spring-data-redis.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring-data-rest/spring-data-rest.iml" filepath="$PROJECT_DIR$/spring-data-rest/spring-data-rest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring-data-transactional/spring-data-transactional.iml" filepath="$PROJECT_DIR$/spring-data-transactional/spring-data-transactional.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring-io-jms-activemq/spring-io-jms-activemq.iml" filepath="$PROJECT_DIR$/spring-io-jms-activemq/spring-io-jms-activemq.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring-io-kafka/spring-io-kafka.iml" filepath="$PROJECT_DIR$/spring-io-kafka/spring-io-kafka.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring-mvc-demo/spring-mvc-demo.iml" filepath="$PROJECT_DIR$/spring-mvc-demo/spring-mvc-demo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring-shell/spring-shell.iml" filepath="$PROJECT_DIR$/spring-shell/spring-shell.iml" />
-      <module fileurl="file://$PROJECT_DIR$/thymeleaf/thymeleaf.iml" filepath="$PROJECT_DIR$/thymeleaf/thymeleaf.iml" />
     </modules>
   </component>
 </project>
