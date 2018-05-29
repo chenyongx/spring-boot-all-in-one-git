@@ -57,7 +57,8 @@
         <!--<module>spring-data-mybatis</module>-->
         <!--<module>spring-data-mybatis-redis</module>-->
         <!--<module>spring-data-jpa-access</module>-->
-        <module>spring-data-jpa-h2-druid</module>
+        <!--<module>spring-data-jpa-h2-druid</module>-->
+        <!--<module>spring-data-rest-simple</module>-->
         <!--<module>spring-data-rest</module>-->
         <!--<module>spring-data-transactional</module>-->
         <!--<module>spring-data-mongodb</module>-->
