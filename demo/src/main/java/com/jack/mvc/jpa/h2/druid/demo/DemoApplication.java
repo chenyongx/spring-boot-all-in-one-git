@@ -1,4 +1,4 @@
-package com.jack.demo;
+package com.jack.mvc.jpa.h2.druid.demo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

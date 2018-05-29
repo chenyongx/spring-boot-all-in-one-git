@@ -57,7 +57,7 @@
         <!--<module>spring-data-mybatis</module>-->
         <!--<module>spring-data-mybatis-redis</module>-->
         <!--<module>spring-data-jpa-access</module>-->
-        <!--<module>spring-data-jpa-h2-druid</module>-->
+        <module>spring-data-jpa-h2-druid</module>
         <!--<module>spring-data-rest</module>-->
         <!--<module>spring-data-transactional</module>-->
         <!--<module>spring-data-mongodb</module>-->
@@ -70,7 +70,7 @@
         <!--<module>spring-boot-admin-server</module>-->
         <!--<module>spring-boot-admin-client</module>-->
 
-        <module>sharding-shark</module>
+        <!--<module>sharding-shark</module>-->
     </modules>
 
     <properties>
@@ -78,8 +78,8 @@
         <java.version>1.8</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-        <spring-boot.version>1.5.9.RELEASE</spring-boot.version>
-        <spring-cloud.version>Edgware.RELEASE</spring-cloud.version>
+        <spring-boot.version>2.0.2.RELEASE</spring-boot.version>
+        <spring-cloud.version>Finchley.RC1</spring-cloud.version>
         <spring-boot-admin.version>1.5.6</spring-boot-admin.version>
     </properties>
 

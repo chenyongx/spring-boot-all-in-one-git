@@ -1,4 +1,4 @@
-package com.jack.demo.entity;
+package com.jack.mvc.jpa.h2.druid.demo.entity;
 
 import lombok.Data;
 
