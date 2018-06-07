@@ -1,6 +1,6 @@
-package com.jack.demo.controller;
+package com.jack.mvc.controller;
 
-import com.jack.demo.entity.User;
+import com.jack.mvc.entity.User;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiResponse;
@@ -13,12 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping(value = "/hello")
 @Api(description = "hello", basePath = "hello")
-public class HelloSwaggerController {
-
-    public static void main(String[] args) throws Exception {
-        SpringApplication.run(HelloSwaggerController.class, args);
-    }
-
+public class SwaggerController {
     @RequestMapping("/")
     @ResponseBody
     @ApiOperation(value = "查询设备信息")

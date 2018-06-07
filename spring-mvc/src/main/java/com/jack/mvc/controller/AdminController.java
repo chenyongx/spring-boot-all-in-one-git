@@ -1,10 +1,10 @@
-package com.jack.demo.web;
+package com.jack.mvc.controller;
 
 import com.jack.annotation.DisableAuth;
-import com.jack.demo.entity.Admin;
-import com.jack.exception.MessageKey;
-import com.jack.exception.JackException;
-import com.jack.service.AdminService;
+import com.jack.mvc.entity.Admin;
+import com.jack.mvc.exception.JackException;
+import com.jack.mvc.exception.MessageKey;
+import com.jack.mvc.service.AdminService;
 import com.jack.vo.ResponseVO;
 import lombok.extern.log4j.Log4j2;
 import org.apache.commons.lang3.StringUtils;

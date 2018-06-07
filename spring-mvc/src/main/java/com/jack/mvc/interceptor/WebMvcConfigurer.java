@@ -14,7 +14,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter
 public class WebMvcConfigurer extends WebMvcConfigurerAdapter {
 
     @Autowired
-    private com.jack.interceptor.AuthInterceptor authInterceptor;
+    private AuthInterceptor authInterceptor;
 
     @Autowired
     private ExceptionInterceptor exceptionInterceptor;

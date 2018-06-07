@@ -1,7 +1,8 @@
-package com.jack.service;
+package com.jack.mvc.service;
 
-import com.jack.demo.entity.Account;
-import com.jack.exception.JackException;
+import com.jack.mvc.entity.Account;
+import com.jack.mvc.exception.JackException;
+
 import java.util.Date;
 
 /**

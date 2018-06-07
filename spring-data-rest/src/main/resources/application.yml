@@ -12,7 +12,6 @@ spring:
             indent_output: true
     jpa:
         hibernate:
-            ddl-auto: update
         show-sql: true
     h2:
       console:

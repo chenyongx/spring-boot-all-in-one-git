@@ -1,4 +1,4 @@
-package com.jack.exception;
+package com.jack.mvc.exception;
 
 /**
  * 状态结果枚举定义

@@ -1,7 +1,7 @@
-package com.jack.service;
+package com.jack.mvc.service;
 
-import com.jack.demo.entity.Admin;
-import com.jack.exception.JackException;
+import com.jack.mvc.entity.Admin;
+import com.jack.mvc.exception.JackException;
 
 /**
  * @author yangyueming

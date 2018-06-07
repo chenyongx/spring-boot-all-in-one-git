@@ -1,6 +1,9 @@
-package com.jack.exception;
+package com.jack.mvc.exception;
 
 import java.io.Serializable;
+
+import com.jack.mvc.exception.JackTools;
+import com.jack.mvc.exception.MessageKey;
 import lombok.Getter;
 import lombok.Setter;
 

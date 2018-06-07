@@ -40,14 +40,14 @@
     <modules>
         <module>poms</module>
 
-        <!--<module>demo</module>-->
+        <module>spring-mvc</module>
+        
         <!--<module>spark</module>-->
 
         <!--<module>thymeleaf</module>-->
 
         <!--<module>spring-shell</module>-->
 
-        <module>spring-mvc-demo</module>
 
         <!--<module>spring-boot-validate</module>-->
 

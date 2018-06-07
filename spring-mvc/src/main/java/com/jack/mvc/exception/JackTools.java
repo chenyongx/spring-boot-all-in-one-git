@@ -1,4 +1,4 @@
-package com.jack.exception;
+package com.jack.mvc.exception;
 
 import java.util.Locale;
 import java.util.ResourceBundle;

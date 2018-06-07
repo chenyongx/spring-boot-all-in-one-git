@@ -1,15 +1,10 @@
-package com.jack.interceptor;
+package com.jack.mvc.interceptor;
 
 import com.jack.annotation.DisableAuth;
-import com.jack.demo.entity.Account;
-import com.jack.exception.MessageKey;
-import com.jack.exception.JackException;
-import com.jack.service.AccountService;
-import java.util.Calendar;
-import java.util.Date;
-import javax.servlet.DispatcherType;
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
+import com.jack.mvc.entity.Account;
+import com.jack.mvc.exception.JackException;
+import com.jack.mvc.exception.MessageKey;
+import com.jack.mvc.service.AccountService;
 import lombok.extern.log4j.Log4j2;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.commons.lang3.time.DateUtils;
@@ -17,6 +12,12 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.springframework.web.method.HandlerMethod;
 import org.springframework.web.servlet.handler.HandlerInterceptorAdapter;
+
+import javax.servlet.DispatcherType;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import java.util.Calendar;
+import java.util.Date;
 
 /**
  * @author yangyueming
