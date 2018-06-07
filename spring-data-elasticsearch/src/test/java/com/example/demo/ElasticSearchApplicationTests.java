@@ -1,6 +1,6 @@
 package com.example.demo;
 
-import com.jack.mybatis.dao.ArticleSearchRepository;
+import com.jack.elasticsearch.repository.ArticleSearchRepository;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
