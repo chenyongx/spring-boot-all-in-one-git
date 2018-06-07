@@ -1,4 +1,4 @@
-package com.jack.demo.web;
+package com.jack.demo.controller;
 
 import com.jack.demo.entity.User;
 import io.swagger.annotations.Api;
