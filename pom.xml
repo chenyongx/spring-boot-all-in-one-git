@@ -47,7 +47,7 @@
 
         <!--<module>spring-shell</module>-->
 
-        <!--<module>spring-mvc-demo</module>-->
+        <module>spring-mvc-demo</module>
 
         <!--<module>spring-boot-validate</module>-->
 

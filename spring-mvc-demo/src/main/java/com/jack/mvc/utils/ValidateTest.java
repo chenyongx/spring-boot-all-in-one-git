@@ -1,8 +1,9 @@
-package com.jack.demo.utils;
+package com.jack.mvc.utils;
 
-import javax.validation.constraints.Size;
 import org.springframework.stereotype.Service;
 import org.springframework.validation.annotation.Validated;
+
+import javax.validation.constraints.Size;
 
 @Service
 @Validated

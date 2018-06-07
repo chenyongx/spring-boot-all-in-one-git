@@ -5,7 +5,6 @@
     <file url="file://$PROJECT_DIR$/demo" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/maven-pom-demo" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/poms" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/sharding-shark" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spark" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-admin-client" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-admin-server" charset="UTF-8" />
@@ -13,16 +12,16 @@
     <file url="file://$PROJECT_DIR$/spring-data-cache-redis" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-data-cache-simple" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-data-elasticsearch" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-data-jpa" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-data-jpa-access" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/spring-data-jpa-h2-druid" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-data-mongodb" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-data-mybatis" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-data-mybatis-redis" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-data-redis" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-data-rest" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-data-rest-simple" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-data-transactional" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-io-jms-activemq" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/spring-io-kafka" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-mvc-demo" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-shell" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/thymeleaf" charset="UTF-8" />
