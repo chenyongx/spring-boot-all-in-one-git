@@ -51,6 +51,8 @@
 
         <!--<module>spring-boot-validate</module>-->
 
+        <module>spring-security</module>
+
         <!--<module>spring-data-cache-redis</module>-->
         <!--<module>spring-data-cache-simple</module>-->
         <!--<module>spring-data-mybatis</module>-->

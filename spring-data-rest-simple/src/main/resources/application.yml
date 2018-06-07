@@ -7,7 +7,6 @@ spring:
         serialization:
             indent_output: true
     jpa:
-        hibernate:
         show-sql: true
     h2:
       console:
