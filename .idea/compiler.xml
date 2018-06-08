@@ -10,7 +10,6 @@
         <module name="sharding-shark" />
         <module name="spring-boot-admin" />
         <module name="spring-mvc" />
-        <module name="spring-security" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

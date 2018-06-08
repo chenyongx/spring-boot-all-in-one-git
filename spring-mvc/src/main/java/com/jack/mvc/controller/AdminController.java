@@ -1,46 +1,36 @@
 package com.jack.mvc.controller;
 
-import com.jack.annotation.DisableAuth;
-import com.jack.mvc.entity.Admin;
-import com.jack.mvc.exception.JackException;
-import com.jack.mvc.exception.MessageKey;
-import com.jack.mvc.service.AdminService;
-import com.jack.vo.ResponseVO;
-import lombok.extern.log4j.Log4j2;
-import org.apache.commons.lang3.StringUtils;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.RequestBody;
+import java.util.ArrayList;
+import java.util.List;
+
+import com.jack.mvc.vo.Menu;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.servlet.ModelAndView;
+
 
 /**
- * 管理员用户管理控制层
- *
- * @author yangyueming
+ * 后台管理控制器.
+ * 
+ * @since 1.0.0 2017年5月28日
+ * @author <a href="https://waylau.com">Way Lau</a> 
  */
-@RestController
-@RequestMapping(value = "/", method = RequestMethod.POST)
-@Log4j2
+@Controller
+@RequestMapping("/admins")
 public class AdminController {
-
-    @Autowired
-    private AdminService adminService;
-
-    @DisableAuth
-    @RequestMapping(value = "admin/login")
-    public ResponseVO save(@RequestBody Admin admin) throws Exception {
-        // 1. 判断参数是否为空
-        if (admin == null || StringUtils.isBlank(admin.getAccount())
-            || StringUtils.isBlank(admin.getPwd())) {
-            throw new JackException(MessageKey.PARAMETER_ERROR);
-        }
-        Admin resultAdmin = adminService.login(admin.getAccount(), admin.getPwd());
-        // 4. 设置返回值
-        ResponseVO responseVO = new ResponseVO(MessageKey.RETURN_OK);
-        resultAdmin.setPwd(null);
-        responseVO.setData(resultAdmin);
-        return responseVO;
-    }
+ 
+	/**
+	 * 获取后台管理主页面
+	 * @return
+	 */
+	@GetMapping
+	public ModelAndView listUsers(Model model) {
+		List<Menu> list = new ArrayList<>();
+		list.add(new Menu("用户管理", "/users"));
+		model.addAttribute("list", list);
+		return new ModelAndView("/admins/index", "model", model);
+	}
 
 }
