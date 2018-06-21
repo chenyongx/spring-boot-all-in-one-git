@@ -15,3 +15,7 @@ server:
   port: 7001
 
 debug: true
+
+logging:
+  config: classpath:logback.xml
+  path: /ilike/logs/spring-data-jpa

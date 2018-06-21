@@ -14,7 +14,7 @@ import javax.persistence.Id;
 @Entity // 实体
 public class User {
 
-	@Id // 主键
+	@Id  // 主键
 	@GeneratedValue(strategy=GenerationType.IDENTITY) // 自增长策略
 	private Long id; // 实体一个唯一标识
 	private String name;
