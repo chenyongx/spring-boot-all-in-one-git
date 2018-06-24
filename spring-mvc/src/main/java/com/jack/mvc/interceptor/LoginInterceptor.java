@@ -15,12 +15,12 @@ import javax.servlet.http.HttpServletResponse;
 @Log
 public class LoginInterceptor extends HandlerInterceptorAdapter {
         @Override
-        public boolean preHandle (HttpServletRequest request, HttpServletResponse response, Object handler){
+        public boolean preHandle (HttpServletRequest request, HttpServletResponse response, Object handler) {
 
-        String userId = request.getParameter("userId");
-        if (StringUtils.isNotBlank(userId)) {
-            return false;
+            String userId = request.getParameter("userId");
+            if (StringUtils.isNotBlank(userId)) {
+                return false;
+            }
+            return true;
         }
-    }
-
 }
