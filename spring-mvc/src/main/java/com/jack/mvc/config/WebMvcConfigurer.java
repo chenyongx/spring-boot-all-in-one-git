@@ -1,9 +1,12 @@
-package com.jack.mvc.interceptor;
+package com.jack.mvc.config;
 
 import com.alibaba.fastjson.serializer.SerializerFeature;
 import com.alibaba.fastjson.support.config.FastJsonConfig;
 import com.alibaba.fastjson.support.spring.FastJsonHttpMessageConverter;
 import java.util.List;
+
+import com.jack.mvc.interceptor.AuthInterceptor;
+import com.jack.mvc.interceptor.ExceptionInterceptor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.http.converter.HttpMessageConverter;

@@ -5,6 +5,9 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;
 
+/**
+ * @author jack
+ */
 public interface UserRepository extends JpaRepository<User, Long>{
 	
 	/**
@@ -15,10 +18,6 @@ public interface UserRepository extends JpaRepository<User, Long>{
 	 */
 	Page<User> findByNameLike(String name, Pageable pageable);
 	
-	/**
-	 * 根据用户账号查询用户
-	 * @param username
-	 * @return
-	 */
+
 	User findByUsername(String username);
 }

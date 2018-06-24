@@ -1,5 +1,9 @@
 package com.jack.mvc.interceptor;
 
+import com.jack.mvc.entity.Account;
+import com.jack.mvc.exception.JackException;
+import com.jack.mvc.exception.MessageKey;
+import com.jack.mvc.service.AccountService;
 import lombok.extern.log4j.Log4j2;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.commons.lang3.time.DateUtils;
@@ -30,7 +34,7 @@ public class AuthInterceptor extends HandlerInterceptorAdapter {
      * @param auth 权限注解
      * @return 是否拦截
      */
-    private static boolean isDisableAuth(DisableAuth auth) {
+    private static boolean isDisableAuth(com.jack.annotation.DisableAuth auth) {
         return auth != null;
     }
 
@@ -39,7 +43,7 @@ public class AuthInterceptor extends HandlerInterceptorAdapter {
         throws Exception {
         HandlerMethod method = (HandlerMethod) handler;
         // 1. 判断是否鉴权
-        DisableAuth auth = method.getMethod().getAnnotation(DisableAuth.class);
+        com.jack.annotation.DisableAuth auth = method.getMethod().getAnnotation(com.jack.annotation.DisableAuth.class);
         if (isDisableAuth(auth)) {
             return super.preHandle(request, response, handler);
         }
