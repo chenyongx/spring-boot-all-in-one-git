@@ -3,8 +3,6 @@ package com.jack.mvc.config;
 import com.alibaba.fastjson.serializer.SerializerFeature;
 import com.alibaba.fastjson.support.config.FastJsonConfig;
 import com.alibaba.fastjson.support.spring.FastJsonHttpMessageConverter;
-import java.util.List;
-
 import com.jack.mvc.interceptor.AuthInterceptor;
 import com.jack.mvc.interceptor.ExceptionInterceptor;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -13,8 +11,10 @@ import org.springframework.http.converter.HttpMessageConverter;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
 
+import java.util.List;
+
 @Configuration
-public class WebMvcConfigurer extends WebMvcConfigurerAdapter {
+public class WebMvcConfig extends WebMvcConfigurerAdapter {
 
     @Autowired
     private AuthInterceptor authInterceptor;

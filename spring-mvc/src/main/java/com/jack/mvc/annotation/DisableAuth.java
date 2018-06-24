@@ -1,4 +1,4 @@
-package com.jack.annotation;
+package com.jack.mvc.annotation;
 
 import java.lang.annotation.Documented;
 import java.lang.annotation.ElementType;
