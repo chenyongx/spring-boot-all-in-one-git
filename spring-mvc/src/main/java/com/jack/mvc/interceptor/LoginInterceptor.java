@@ -14,7 +14,6 @@ import javax.servlet.http.HttpServletResponse;
 @Service
 @Log
 public class LoginInterceptor extends HandlerInterceptorAdapter {
-
         @Override
         public boolean preHandle (HttpServletRequest request, HttpServletResponse response, Object handler){
 
