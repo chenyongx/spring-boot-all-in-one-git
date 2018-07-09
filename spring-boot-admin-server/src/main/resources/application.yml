@@ -6,14 +6,20 @@ spring:
     name: admin-server
   boot:
     admin:
-      url: http://localhost:9999
-      username: admin       #These two are needed so that the client
-      password: 123456   #can register at the protected server api
+      client:
+        url: http://localhost:9999
+        username: admin       #These two are needed so that the client
+        password: 123456
+  security:
+    user:
+      name: admin
+      password: 123456 #can register at the protected server api
 
-security:
-  user:
-    name: admin
-    password: 123456
+
+#security:
+#  user:
+#    name: admin
+#    password: 123456
 
 #logging:
 #  level: debug

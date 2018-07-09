@@ -31,7 +31,7 @@
     <modules>
         <module>poms</module>
 
-        <module>spring-mvc</module>
+        <!--<module>spring-mvc</module>-->
         
         <!--<module>spark</module>-->
 
@@ -62,8 +62,8 @@
         <!--<module>spring-io-jms-activemq</module>-->
         <!--<module>spring-io-kafka</module>-->
 
-        <!--<module>spring-boot-admin-server</module>-->
-        <!--<module>spring-boot-admin-client</module>-->
+        <module>spring-boot-admin-server</module>
+        <module>spring-boot-admin-client</module>
 
         <!--<module>sharding-shark</module>-->
     </modules>

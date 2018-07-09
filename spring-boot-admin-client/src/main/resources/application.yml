@@ -1,12 +1,28 @@
+
 spring:
   application:
     name: admin-client
   boot:
     admin:
-      url: http://localhost:9999
-      username: admin       #These two are needed so that the client
-      password: 123456   #can register at the protected server api
+      client:
+        url: http://localhost:9999
+        username: admin       #These two are needed so that the client
+        password: 123456
+server:
+  port: 8081
+#      username: admin       #These two are needed so that the client
+#      password: 123456   #can register at the protected server api
+
+#management:
+#  security:
+#    enabled: false #can access the proteceted client endpoints
+
 
 management:
-  security:
-    enabled: false #can access the proteceted client endpoints
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    health:
+      show-details: ALWAYS
