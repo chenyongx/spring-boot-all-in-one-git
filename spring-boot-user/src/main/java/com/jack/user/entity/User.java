@@ -1,10 +1,11 @@
 package com.jack.user.entity;
 
-import javax.persistence.Entity;
-import javax.persistence.Id;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+
+import javax.persistence.Entity;
+import javax.persistence.Id;
 
 /**
  * @author yangyueming

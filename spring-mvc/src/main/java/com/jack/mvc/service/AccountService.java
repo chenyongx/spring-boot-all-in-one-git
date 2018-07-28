@@ -25,7 +25,7 @@ public interface AccountService {
      * 检查用户邮箱地址是否已经激活
      *
      * @param userId 用户ID
-     * @param email 邮箱地址
+     * @param email  邮箱地址
      * @return 邮箱激活状态
      */
     boolean checkEmailIsActivated(Long userId, String email);
@@ -34,8 +34,8 @@ public interface AccountService {
      * 邮箱激活修改邮箱地址和激活状态
      *
      * @param userId 用户ID
-     * @param email 邮箱地址
-     * @param pwd 密码
+     * @param email  邮箱地址
+     * @param pwd    密码
      */
     void updateEmailActivateStatus(Long userId, String email, String pwd);
 }

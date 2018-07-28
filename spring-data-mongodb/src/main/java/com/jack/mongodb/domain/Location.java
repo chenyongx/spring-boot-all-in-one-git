@@ -9,7 +9,6 @@ import lombok.Data;
 @Data
 @AllArgsConstructor
 public class Location {
-
     private String place;
     private String year;
 }

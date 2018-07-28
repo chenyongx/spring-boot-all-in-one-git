@@ -1,15 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xmlns="http://www.springframework.org/schema/beans"
-    xsi:schemaLocation="http://www.springframework.org/schema/beans
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns="http://www.springframework.org/schema/beans"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
         http://www.springframework.org/schema/beans/spring-beans.xsd
         http://code.alibabatech.com/schema/dubbo
         http://code.alibabatech.com/schema/dubbo/dubbo.xsd
         ">
-
-
-
 
 
     <!-- 具体的实现bean -->
@@ -23,29 +20,29 @@
     <dubbo:provider delay="-1" retries="0" timeout="20000"/>
 
     <dubbo:service interface="com.jack.data.service.label.LabelStatusService"
-        ref="labelStatusService"/>
+                   ref="labelStatusService"/>
     <dubbo:service interface="com.jack.data.service.dailytarget.DailyTargetService"
-        ref="dailyTargetService"/>
+                   ref="dailyTargetService"/>
     <dubbo:service interface="com.jack.data.service.bikeroute.BikeRouteService"
-        ref="bikeRouteService"/>
+                   ref="bikeRouteService"/>
     <dubbo:service interface="com.jack.data.service.biketeam.BikeTeamService"
-        ref="bikeTeamService"/>
+                   ref="bikeTeamService"/>
     <dubbo:service interface="com.jack.data.service.biketeam.BikeTeamUserService"
-        ref="bikeTeamUserService"/>
+                   ref="bikeTeamUserService"/>
     <dubbo:service interface="com.jack.data.service.sportdata.SportDataService"
-        ref="sportDataService"/>
+                   ref="sportDataService"/>
     <dubbo:service interface="com.jack.data.service.label.LabelDataService" ref="labelDataService"/>
     <dubbo:service interface="com.jack.data.service.riding.RidingService" ref="ridingService"/>
     <dubbo:service interface="com.jack.data.service.run.RunService" ref="runService"/>
     <dubbo:service interface="com.jack.data.service.swim.SwimService" ref="swimService"/>
     <dubbo:service interface="com.jack.data.service.dailydata.DailyDataService"
-        ref="dailyDataService"/>
+                   ref="dailyDataService"/>
     <dubbo:service interface="com.jack.data.service.career.CareerService" ref="careerService"/>
 
 
     <dubbo:reference check="false" id="accountService"
-        interface="com.jack.user.service.user.AccountService"/>
+                     interface="com.jack.user.service.user.AccountService"/>
     <dubbo:reference check="false" id="userInfoService"
-        interface="com.jack.user.service.user.UserInfoService"/>
+                     interface="com.jack.user.service.user.UserInfoService"/>
 
 </beans>

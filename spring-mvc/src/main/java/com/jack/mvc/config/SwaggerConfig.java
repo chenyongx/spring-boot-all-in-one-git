@@ -34,18 +34,18 @@ public class SwaggerConfig {
         ParameterBuilder tokenPar = new ParameterBuilder();
         List<Parameter> pars = new ArrayList<>();
         tokenPar.name("accessToken").description("令牌").modelRef(new ModelRef("string"))
-            .parameterType("header").required(false).build();
+                .parameterType("header").required(false).build();
         pars.add(tokenPar.build());
         return new Docket(DocumentationType.SWAGGER_2).apiInfo(getApiInfo()).select()
-            .apis(RequestHandlerSelectors.basePackage("com.jack.mvc.jpa.h2.druid.demo.web"))
-            .paths(PathSelectors.any()).build().globalOperationParameters(pars)
-            .apiInfo(getApiInfo());
+                .apis(RequestHandlerSelectors.basePackage("com.jack.mvc.jpa.h2.druid.demo.web"))
+                .paths(PathSelectors.any()).build().globalOperationParameters(pars)
+                .apiInfo(getApiInfo());
     }
 
     private ApiInfo getApiInfo() {
         Contact contact = new Contact("yangyueming", "http://jack.com", "yangyueming@jack.com");
         return new ApiInfoBuilder().title("jack项目http接口").description("jack Api Definition")
-            .version("1.0.0").license("Apache 2.0")
-            .licenseUrl("http://www.apache.org/licenses/LICENSE-2.0").contact(contact).build();
+                .version("1.0.0").license("Apache 2.0")
+                .licenseUrl("http://www.apache.org/licenses/LICENSE-2.0").contact(contact).build();
     }
 }

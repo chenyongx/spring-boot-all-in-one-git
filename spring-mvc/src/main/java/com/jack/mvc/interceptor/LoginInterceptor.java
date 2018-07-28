@@ -14,13 +14,13 @@ import javax.servlet.http.HttpServletResponse;
 @Service
 @Log
 public class LoginInterceptor extends HandlerInterceptorAdapter {
-        @Override
-        public boolean preHandle (HttpServletRequest request, HttpServletResponse response, Object handler) {
+    @Override
+    public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) {
 
-            String userId = request.getParameter("userId");
-            if (StringUtils.isNotBlank(userId)) {
-                return false;
-            }
-            return true;
+        String userId = request.getParameter("userId");
+        if (StringUtils.isNotBlank(userId)) {
+            return false;
         }
+        return true;
+    }
 }

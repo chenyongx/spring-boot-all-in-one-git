@@ -1,23 +1,23 @@
 package com.jack.mvc.utils;
 
-import java.util.ArrayList;
-import java.util.List;
+import org.apache.commons.lang3.StringUtils;
 
 import javax.validation.ConstraintViolation;
 import javax.validation.ConstraintViolationException;
-
-import org.apache.commons.lang3.StringUtils;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * ConstraintViolationException 处理器.
- * 
+ *
+ * @author <a href="https://waylau.com">Way Lau</a>
  * @since 1.0.0 2017年5月29日
- * @author <a href="https://waylau.com">Way Lau</a> 
  */
 public class ConstraintViolationExceptionHandler {
-	
-	 /**
+
+    /**
      * 获取批量异常信息
+     *
      * @param e
      * @return
      */

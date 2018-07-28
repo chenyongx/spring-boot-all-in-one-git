@@ -1,11 +1,11 @@
 package com.jack.mvc.exception;
 
-import java.io.Serializable;
-
 import com.jack.mvc.exception.JackTools;
 import com.jack.mvc.exception.MessageKey;
 import lombok.Getter;
 import lombok.Setter;
+
+import java.io.Serializable;
 
 /**
  * 自定义系统异常类
@@ -40,7 +40,7 @@ public class JackException extends Exception implements Serializable {
     /**
      * coros自定义业务异常
      *
-     * @param result 消息编号
+     * @param result  消息编号
      * @param message 消息
      */
     public JackException(String result, String message) {
@@ -52,8 +52,8 @@ public class JackException extends Exception implements Serializable {
     /**
      * coros自定义业务异常
      *
-     * @param e 异常信息
-     * @param result 消息编号
+     * @param e       异常信息
+     * @param result  消息编号
      * @param message 占位符中参数
      */
     public JackException(Exception e, String result, String message) {

@@ -1,8 +1,8 @@
 package com.jack.cache.simple.service.impl;
 
-import com.jack.cache.simple.service.DemoService;
 import com.jack.cache.simple.dao.PersonRepository;
 import com.jack.cache.simple.domain.Person;
+import com.jack.cache.simple.service.DemoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cache.annotation.CacheEvict;
 import org.springframework.cache.annotation.CachePut;

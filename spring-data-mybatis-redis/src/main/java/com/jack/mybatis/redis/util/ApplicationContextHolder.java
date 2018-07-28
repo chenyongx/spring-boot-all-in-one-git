@@ -9,24 +9,25 @@ import org.springframework.stereotype.Component;
  * @author yangyueming
  */
 @Component
-public class ApplicationContextHolder implements ApplicationContextAware{
-   private static ApplicationContext applicationContext;
+public class ApplicationContextHolder implements ApplicationContextAware {
+    private static ApplicationContext applicationContext;
+
+    public static ApplicationContext getApplicationContext() {
+        return applicationContext;
+    }
 
     @Override
     public void setApplicationContext(ApplicationContext ctx) throws BeansException {
-        applicationContext=ctx;
-    }
-
-    public static ApplicationContext getApplicationContext(){
-        return applicationContext;
+        applicationContext = ctx;
     }
 
     /**
      * Get bean by class
      */
-    public static <T> T getBean(Class<T> clazz){
+    public static <T> T getBean(Class<T> clazz) {
         return applicationContext.getBean(clazz);
     }
+
     /**
      * Get bean by class name
      *
@@ -36,7 +37,7 @@ public class ApplicationContextHolder implements ApplicationContextAware{
      */
     @SuppressWarnings("unchecked")
     public static <T> T getBean(String name) {
-        return (T)applicationContext.getBean(name);
+        return (T) applicationContext.getBean(name);
     }
 
 }

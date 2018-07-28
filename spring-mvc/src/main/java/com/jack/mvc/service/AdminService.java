@@ -8,5 +8,6 @@ import com.jack.mvc.exception.JackException;
  */
 public interface AdminService {
     Admin find(String accessToken) throws JackException;
+
     Admin login(String account, String pwd) throws JackException;
 }

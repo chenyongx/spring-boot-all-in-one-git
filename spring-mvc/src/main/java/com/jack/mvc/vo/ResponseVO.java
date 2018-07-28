@@ -1,10 +1,11 @@
 package com.jack.vo;
 
+import lombok.Getter;
+import lombok.Setter;
+
 import java.io.Serializable;
 import java.util.Locale;
 import java.util.ResourceBundle;
-import lombok.Getter;
-import lombok.Setter;
 
 /**
  * 与Client端交互用的实体类

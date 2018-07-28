@@ -28,9 +28,9 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 
     @Autowired
-    private UrlUserService urlUserService;
-    @Autowired
     SessionRegistry sessionRegistry;
+    @Autowired
+    private UrlUserService urlUserService;
 
     @Override
     protected void configure(HttpSecurity http) throws Exception {
@@ -74,8 +74,8 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
     }
 
     @Bean
-    public SessionRegistry getSessionRegistry(){
-        SessionRegistry sessionRegistry=new SessionRegistryImpl();
+    public SessionRegistry getSessionRegistry() {
+        SessionRegistry sessionRegistry = new SessionRegistryImpl();
         return sessionRegistry;
     }
 }

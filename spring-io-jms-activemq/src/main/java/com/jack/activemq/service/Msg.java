@@ -1,10 +1,11 @@
 package com.jack.activemq.service;
 
-import java.util.Date;
+import org.springframework.jms.core.MessageCreator;
+
 import javax.jms.JMSException;
 import javax.jms.Message;
 import javax.jms.Session;
-import org.springframework.jms.core.MessageCreator;
+import java.util.Date;
 
 /**
  * @author yangyueming

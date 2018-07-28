@@ -1,7 +1,8 @@
 package com.jack.mybatis.entity;
 
-import java.util.Date;
 import lombok.Data;
+
+import java.util.Date;
 
 /**
  * 用户信息 Created by Infi on 17/3/22.

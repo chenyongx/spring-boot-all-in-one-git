@@ -1,7 +1,6 @@
 package com.jack.security.dao;
 
 
-
 import com.jack.security.entity.Permission;
 
 import java.util.List;

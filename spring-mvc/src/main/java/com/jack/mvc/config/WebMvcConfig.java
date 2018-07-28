@@ -27,11 +27,11 @@ public class WebMvcConfig extends WebMvcConfigurerAdapter {
     public void addInterceptors(InterceptorRegistry registry) {
         registry.addInterceptor(exceptionInterceptor).addPathPatterns("/**");
         registry.addInterceptor(authInterceptor).addPathPatterns("/**")
-            .excludePathPatterns("/swagger**/**",
-                "/health", "/configprops", "/dump", "metrics/**", "/mappings", "/trace", "info",
-                "/beans",
-                "/metrics", "/view**/**", "/accset**/**", "/**.html", "/**.js", "*.jpg", "*.png",
-                "/resources", "/static", "/monitoring**/**", "/error");
+                .excludePathPatterns("/swagger**/**",
+                        "/health", "/configprops", "/dump", "metrics/**", "/mappings", "/trace", "info",
+                        "/beans",
+                        "/metrics", "/view**/**", "/accset**/**", "/**.html", "/**.js", "*.jpg", "*.png",
+                        "/resources", "/static", "/monitoring**/**", "/error");
         super.addInterceptors(registry);
     }
 

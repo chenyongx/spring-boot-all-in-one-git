@@ -1,16 +1,16 @@
 package com.jack.mongodb.domain;
 
-import java.util.Collection;
-import java.util.LinkedHashSet;
 import lombok.Data;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
-import org.springframework.data.mongodb.core.mapping.Field;
+
+import java.util.LinkedHashSet;
+import java.util.Set;
 
 /**
  * @author yangyueming
  */
-@Document //1
+@Document
 @Data
 public class Person {
 
@@ -18,8 +18,7 @@ public class Person {
     private String id;
     private String name;
     private Integer age;
-    @Field("locs")
-    private Collection<Location> locations = new LinkedHashSet<>();
+    private Set<Location> locationSet = new LinkedHashSet<>();
 
     public Person(String name, Integer age) {
         super();

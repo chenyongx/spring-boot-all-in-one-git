@@ -8,16 +8,17 @@ import org.springframework.data.jpa.repository.JpaRepository;
 /**
  * @author jack
  */
-public interface UserRepository extends JpaRepository<User, Long>{
-	
-	/**
-	 * 根据用户姓名分页查询用户列表
-	 * @param name
-	 * @param pageable
-	 * @return
-	 */
-	Page<User> findByNameLike(String name, Pageable pageable);
-	
+public interface UserRepository extends JpaRepository<User, Long> {
 
-	User findByUsername(String username);
+    /**
+     * 根据用户姓名分页查询用户列表
+     *
+     * @param name
+     * @param pageable
+     * @return
+     */
+    Page<User> findByNameLike(String name, Pageable pageable);
+
+
+    User findByUsername(String username);
 }

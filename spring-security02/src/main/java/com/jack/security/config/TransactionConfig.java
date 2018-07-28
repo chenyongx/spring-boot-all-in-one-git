@@ -12,7 +12,7 @@ import javax.sql.DataSource;
 
 @Configuration
 @ComponentScan
-public class TransactionConfig implements TransactionManagementConfigurer{
+public class TransactionConfig implements TransactionManagementConfigurer {
     @Autowired
     private DataSource dataSource;
 

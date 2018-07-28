@@ -15,7 +15,7 @@ public class ElasticSearchApplicationTests {
     private ArticleSearchRepository articleSearchRepository;
 
     @Test
-    public void test(){
+    public void test() {
         System.out.println("演示初始化");
     }
 

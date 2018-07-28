@@ -12,8 +12,11 @@ import java.util.List;
 @Mapper
 public interface ProductMapper {
 
-    void  save(Product product);
+    void save(Product product);
+
     Product select(@Param("id") long id);
+
     List<Product> findByName(@Param("name") String name);
+
     void update(Product product);
 }

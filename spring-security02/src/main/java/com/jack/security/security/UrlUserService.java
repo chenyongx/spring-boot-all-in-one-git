@@ -23,6 +23,7 @@ public class UrlUserService implements UserDetailsService {
     UserDao userDao;
     @Autowired
     PermissionDao permissionDao;
+
     @Override
     public UserDetails loadUserByUsername(String userName) { //重写loadUserByUsername 方法获得 userdetails 类型用户
 
@@ -31,8 +32,8 @@ public class UrlUserService implements UserDetailsService {
             List<Permission> permissions = permissionDao.getByUserId(user.getId());
             List<GrantedAuthority> grantedAuthorities = new ArrayList<>();
             for (Permission permission : permissions) {
-                if (permission != null && permission.getName()!=null) {
-                    GrantedAuthority grantedAuthority = new UrlGrantedAuthority(permission.getPermissionUrl(),permission.getMethod());
+                if (permission != null && permission.getName() != null) {
+                    GrantedAuthority grantedAuthority = new UrlGrantedAuthority(permission.getPermissionUrl(), permission.getMethod());
                     grantedAuthorities.add(grantedAuthority);
                 }
             }

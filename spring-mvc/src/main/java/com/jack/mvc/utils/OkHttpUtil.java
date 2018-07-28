@@ -10,8 +10,8 @@ public class OkHttpUtil {
 
     public static String run(String url) throws IOException {
         Request request = new Request.Builder()
-            .url(url)
-            .build();
+                .url(url)
+                .build();
 
         Response response = new OkHttpClient().newCall(request).execute();
         return response.body().string();

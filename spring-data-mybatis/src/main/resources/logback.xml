@@ -27,7 +27,7 @@
     <logger level="debug" name="com.ibatis.common.jdbc.SimpleDataSource"/>
     <logger level="debug" name="com.ibatis.common.jdbc.ScriptRunner"/>
     <logger level="debug"
-        name="com.ibatis.sqlmap.engine.impl.SqlMapClientDelegate"/>
+            name="com.ibatis.sqlmap.engine.impl.SqlMapClientDelegate"/>
     <logger level="debug" name="java.sql.Connection"/>
     <logger level="debug" name="java.sql.Statement"/>
     <logger level="debug" name="java.sql.PreparedStatement"/>

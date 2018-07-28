@@ -41,7 +41,7 @@ public class AuthInterceptor extends HandlerInterceptorAdapter {
 
     @Override
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler)
-        throws Exception {
+            throws Exception {
         HandlerMethod method = (HandlerMethod) handler;
         // 1. 判断是否鉴权
         DisableAuth auth = method.getMethod().getAnnotation(DisableAuth.class);

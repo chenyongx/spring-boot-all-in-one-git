@@ -48,10 +48,6 @@ public class User implements UserDetails {
         return true;
     }
 
-    public void setUsername(String username) {
-        this.username = username;
-    }
-
     @JsonIgnore
     public Collection<? extends GrantedAuthority> getAuthorities() {
         return authorities;
@@ -79,6 +75,10 @@ public class User implements UserDetails {
 
     public String getUsername() {
         return username;
+    }
+
+    public void setUsername(String username) {
+        this.username = username;
     }
 
     public String getPassword() {
@@ -144,6 +144,7 @@ public class User implements UserDetails {
     public void setRoleId(Integer roleId) {
         this.roleId = roleId;
     }
+
     @Override
     public String toString() {
         return "User{" +

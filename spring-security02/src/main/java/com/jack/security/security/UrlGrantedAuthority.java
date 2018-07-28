@@ -10,6 +10,11 @@ public class UrlGrantedAuthority implements GrantedAuthority {
     private String permissionUrl;
     private String method;
 
+    public UrlGrantedAuthority(String permissionUrl, String method) {
+        this.permissionUrl = permissionUrl;
+        this.method = method;
+    }
+
     public String getPermissionUrl() {
         return permissionUrl;
     }
@@ -26,13 +31,8 @@ public class UrlGrantedAuthority implements GrantedAuthority {
         this.method = method;
     }
 
-    public UrlGrantedAuthority (String permissionUrl, String method) {
-        this.permissionUrl = permissionUrl;
-        this.method = method;
-    }
-
     @Override
     public String getAuthority() {
-        return this.permissionUrl + ";"+this.method;
+        return this.permissionUrl + ";" + this.method;
     }
 }

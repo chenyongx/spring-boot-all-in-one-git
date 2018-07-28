@@ -1,8 +1,8 @@
 package com.jack.transactional.service.impl;
 
+import com.jack.transactional.dao.PersonRepository;
 import com.jack.transactional.domain.Person;
 import com.jack.transactional.service.DemoService;
-import com.jack.transactional.dao.PersonRepository;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

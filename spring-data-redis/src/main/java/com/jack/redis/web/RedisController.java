@@ -1,7 +1,7 @@
 package com.jack.redis.web;
 
-import com.jack.redis.domain.Person;
 import com.jack.redis.dao.PersonDao;
+import com.jack.redis.domain.Person;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

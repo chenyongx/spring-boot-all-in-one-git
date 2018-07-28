@@ -10,22 +10,21 @@ import javax.persistence.Id;
 
 /**
  * 权限.
-
  */
 @Entity
 @Data
 public class Authority implements GrantedAuthority {
 
-	private static final long serialVersionUID = 1L;
+    private static final long serialVersionUID = 1L;
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String name;
 
-	@Override
-	public String getAuthority() {
-		return name;
-	}
+    @Override
+    public String getAuthority() {
+        return name;
+    }
 
 }

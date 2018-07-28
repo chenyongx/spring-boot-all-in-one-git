@@ -4,14 +4,15 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.jack.mybatis.redis.dao.mapper.ProductMapper">
     <resultMap id="resultList" type="com.jack.mybatis.redis.dao.entity.Product">
-    <id property="id" column="id"/>
+        <id property="id" column="id"/>
         <result column="name" property="name"/>
         <result column="price" property="price"/>
     </resultMap>
     <!-- 开启基于redis的二级缓存 -->
     <cache type="com.jack.mybatis.redis.util.RedisCache"/>
 
-    <insert id="save" parameterType="com.jack.mybatis.redis.dao.entity.Product" keyProperty="id" useGeneratedKeys="true">
+    <insert id="save" parameterType="com.jack.mybatis.redis.dao.entity.Product" keyProperty="id"
+            useGeneratedKeys="true">
         insert into  products (name,price) values (#{name},#{price})
     </insert>
     <select id="select" resultType="com.jack.mybatis.redis.dao.entity.Product">

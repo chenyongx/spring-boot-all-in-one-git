@@ -28,8 +28,8 @@ public class ExceptionInterceptor extends HandlerInterceptorAdapter {
 
     @Override
     public void afterCompletion(HttpServletRequest request, HttpServletResponse response,
-        Object handler, Exception ex)
-        throws Exception {
+                                Object handler, Exception ex)
+            throws Exception {
         PrintWriter writer = response.getWriter();
         //response 重置，不然会报错：getOutputStream() has already been called for this response
         response.reset();

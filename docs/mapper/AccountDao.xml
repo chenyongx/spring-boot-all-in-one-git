@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
-    "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <!-- 账户信息mapper -->
 <mapper namespace="com.jack.user.dao.user.AccountDao">
     <resultMap id="UserAccountMap" type="com.jack.common.entity.user.Account">

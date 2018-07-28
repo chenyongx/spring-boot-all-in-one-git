@@ -1,8 +1,6 @@
 package com.jack.thymeleaf;
 
 import com.jack.thymeleaf.entity.Person;
-import java.util.ArrayList;
-import java.util.List;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
@@ -11,6 +9,9 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.view.json.MappingJackson2JsonView;
+
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * @author yangyueming
