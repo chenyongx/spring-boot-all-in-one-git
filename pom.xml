@@ -25,6 +25,7 @@
 
     <modules>
         <module>poms</module>
+        <module>spring-boot-kafka</module>
         <!--<module>spring-boot-data-jpa-redis-mysql</module>-->
 
 
