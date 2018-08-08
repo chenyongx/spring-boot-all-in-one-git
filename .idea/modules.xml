@@ -4,7 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/poms/poms.iml" filepath="$PROJECT_DIR$/poms/poms.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-all-in-one-git.iml" filepath="$PROJECT_DIR$/spring-boot-all-in-one-git.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring-data-jpa/spring-data-jpa.iml" filepath="$PROJECT_DIR$/spring-data-jpa/spring-data-jpa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-kafka/spring-boot-kafka.iml" filepath="$PROJECT_DIR$/spring-boot-kafka/spring-boot-kafka.iml" />
     </modules>
   </component>
 </project>
