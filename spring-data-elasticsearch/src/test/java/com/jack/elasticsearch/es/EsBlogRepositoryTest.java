@@ -1,5 +1,7 @@
 package com.jack.elasticsearch.es;
 
+import com.jack.elasticsearch.domain.EsBlog;
+import com.jack.elasticsearch.repository.EsBlogRepository;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;

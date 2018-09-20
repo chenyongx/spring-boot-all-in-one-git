@@ -3,8 +3,8 @@
  */
 package com.jack.elasticsearch.controller;
 
-import com.jack.elasticsearch.es.EsBlog;
-import com.jack.elasticsearch.es.EsBlogRepository;
+import com.jack.elasticsearch.domain.EsBlog;
+import com.jack.elasticsearch.repository.EsBlogRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;

@@ -60,7 +60,7 @@
 
         <!--<module>spring-mvc</module>-->
         <!--<module>spring-io-jms-activemq</module>-->
-        <!--<module>spring-data-elasticsearch</module>-->
+        <module>spring-data-elasticsearch</module>
         <!--<module>spark</module>-->
 
     </modules>
