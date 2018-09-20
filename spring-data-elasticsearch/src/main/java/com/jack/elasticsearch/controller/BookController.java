@@ -93,9 +93,11 @@ public class BookController {
 
 
 	@PostMapping("/insert")
-	public Book insertBook(@RequestParam("name") String name, @RequestParam("message") String message, @RequestParam(
+	public Book insertBook(@RequestParam("id") String id, @RequestParam("name") String name,
+						   @RequestParam("message") String message, @RequestParam(
 			"type") String type) {
 		Book book = new Book();
+		book.setId(id);
 		book.setMessage(message);
 		book.setName(name);
 		book.setType(type);
