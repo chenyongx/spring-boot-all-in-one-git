@@ -1,9 +1,13 @@
+
+
 spring:
   data:
     mongodb:
-#      uri: mongodb://root:Jack123!@dds-wz9528547cfc95141.mongodb.rds.aliyuncs.com:3717/test
-      uri: mongodb://localhost/test
+      uri: mongodb://root:aixiangdao%4088@dds-wz946c0849dabfd4-pub.mongodb.rds.aliyuncs.com:3717/admin
+#      uri: mongodb://localhost/test
 #      host: localhost
-      username:
-      password:
+#      username:
+#      password:
+server:
+  port: 8081
 #      database:
