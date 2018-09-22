@@ -9,7 +9,7 @@ import org.springframework.data.rest.core.annotation.RestResource;
 /**
  * @author yangyueming
  */
-@RepositoryRestResource(path = "people")
+@RepositoryRestResource(path = "person")
 public interface PersonRepository extends JpaRepository<Person, Long> {
 
     @RestResource(path = "nameStartsWith", rel = "nameStartsWith")

@@ -1,17 +1,23 @@
+
+
 debug: true
 
 spring:
     data:
         rest:
-            base-path: /api
+            basePath: /api
     datasource:
-      driver-class-name:  org.h2.Driver
-      url: jdbc:h2:mem:test
+      url: jdbc:mysql://rm-wz939g2zz921yd9rjo.mysql.rds.aliyuncs.com:3306/gzh?characterEncoding=UTF-8&useSSL=true
+      username: root
+      password: Jack456!
     jackson:
         serialization:
             indent_output: true
     jpa:
-        show-sql: true
-    h2:
-      console:
-        enabled: true
+      hibernate:
+        ddl-auto: update
+#      database-platform: org.hibernate.dialect.MySQLDialect
+      show-sql: true
+
+server:
+  port: 8082
