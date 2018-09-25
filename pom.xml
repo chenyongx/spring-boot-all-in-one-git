@@ -26,6 +26,10 @@
     <modules>
         <module>poms</module>
 
+        <!--<module>jrebel</module>-->
+
+        <!--<module>spring-boot-devtools</module>-->
+
         <!--<module>spring-boot-aop</module>-->
 
         <!--<module>spring-boot-kafka</module>-->
@@ -43,16 +47,17 @@
         <!--<module>spring-security</module>-->
         <!--<module>spring-security02</module>-->
 
-        <!--<module>spring-data-cache-redis</module>-->
-        <!--<module>spring-data-cache-simple</module>-->
+
         <!--<module>spring-data-mybatis</module>-->
         <!--<module>spring-data-mybatis-redis</module>-->
         <!--<module>spring-data-jpa</module>-->
         <!--<module>spring-data-rest-simple</module>-->
-        <module>spring-data-rest</module>
+        <!--<module>spring-data-rest</module>-->
         <!--<module>spring-data-transactional</module>-->
-        <module>spring-data-mongodb</module>
+        <!--<module>spring-data-mongodb</module>-->
+
         <!--<module>spring-data-redis</module>-->
+        <!--<module>spring-data-cache-redis</module>-->
 
 
         <!--<module>spring-boot-admin-server</module>-->
@@ -69,19 +74,32 @@
         <file.encoding>UTF-8</file.encoding>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
     </properties>
 
 
     <build>
         <plugins>
+            <!--<plugin>-->
+                <!--<groupId>org.apache.maven.plugins</groupId>-->
+                <!--<artifactId>maven-compiler-plugin</artifactId>-->
+                <!--<version>3.7.0</version>-->
+                <!--<configuration>-->
+                    <!--<source>1.8</source>-->
+                    <!--<target>1.8</target>-->
+                    <!--<skip>true</skip>-->
+                <!--</configuration>-->
+            <!--</plugin>-->
+
+            <!--设置module的编译版本为java 1.8-->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.7.0</version>
                 <configuration>
                     <source>1.8</source>
                     <target>1.8</target>
-                    <skip>true</skip>
+                    <encoding>UTF-8</encoding>
                 </configuration>
             </plugin>
 

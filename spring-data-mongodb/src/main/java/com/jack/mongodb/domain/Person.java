@@ -1,4 +1,4 @@
-package com.jack.mongodb.domain;
+package com.jack.redis.domain;
 
 import lombok.Data;
 import org.springframework.data.annotation.Id;

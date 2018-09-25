@@ -1,4 +1,4 @@
-package com.jack.mongodb;
+package com.jack.redis;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

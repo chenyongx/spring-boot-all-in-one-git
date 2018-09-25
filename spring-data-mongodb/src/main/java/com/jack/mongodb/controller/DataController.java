@@ -1,14 +1,15 @@
-package com.jack.mongodb.controller;
+package com.jack.redis.controller;
 
-import com.jack.mongodb.dao.PersonRepository;
-import com.jack.mongodb.domain.Location;
-import com.jack.mongodb.domain.Person;
-import org.springframework.beans.factory.annotation.Autowired;
+import com.jack.redis.dao.PersonRepository;
+import com.jack.redis.domain.Location;
+import com.jack.redis.domain.Person;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
+import javax.annotation.Resource;
 import java.util.LinkedHashSet;
 import java.util.List;
 import java.util.Set;
@@ -19,7 +20,7 @@ import java.util.Set;
 @RestController
 public class DataController {
 
-    @Autowired
+    @Resource
     PersonRepository personRepository;
 
     @PostMapping("/save")
@@ -39,7 +40,7 @@ public class DataController {
         return personRepository.save(p);
     }
 
-    @PostMapping("/q1")
+    @GetMapping("/findByName")
     public Person q1(@RequestParam String name) {
         return personRepository.findByName(name);
     }
