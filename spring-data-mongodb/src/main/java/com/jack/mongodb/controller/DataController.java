@@ -25,7 +25,7 @@ public class DataController {
 
     @PostMapping("/save")
     public Person save() {
-        Person p = new Person("wyf", 32);
+        Person person = new Person("wyf", 32);
         Set<Location> locationSet = new LinkedHashSet<>();
         Location location1 = new Location("上海", "2009");
         Location location2 = new Location("合肥", "2010");
@@ -35,9 +35,9 @@ public class DataController {
         locationSet.add(location2);
         locationSet.add(location3);
         locationSet.add(location4);
-        p.setLocationSet(locationSet);
+        person.setLocationSet(locationSet);
 
-        return personRepository.save(p);
+        return personRepository.save(person);
     }
 
     @GetMapping("/findByName")
