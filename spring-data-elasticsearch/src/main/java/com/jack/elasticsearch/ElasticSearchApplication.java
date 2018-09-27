@@ -7,6 +7,7 @@ import org.elasticsearch.xpack.client.PreBuiltXPackTransportClient;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
+import org.springframework.data.elasticsearch.repository.config.EnableElasticsearchRepositories;
 
 import java.net.InetAddress;
 import java.net.UnknownHostException;
@@ -15,6 +16,7 @@ import java.net.UnknownHostException;
  * @author yangyueming
  */
 @SpringBootApplication
+@EnableElasticsearchRepositories
 public class ElasticSearchApplication {
 
     public static void main(String[] args) {

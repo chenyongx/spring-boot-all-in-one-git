@@ -20,8 +20,8 @@ import java.util.List;
 @RequestMapping("/book")
 public class BookController {
 
-	@Autowired
-	private BookSearchRepository bookSearchRepository;
+    @Autowired
+    private BookSearchRepository bookSearchRepository;
 
 //	/**
 //	 * 1、查  id
@@ -34,41 +34,42 @@ public class BookController {
 //	}
 
 
-	//查询
-	@RequestMapping("/query")
-	public Iterable<Book> query(){
+    //查询
+    @RequestMapping("/query")
+    public Iterable<Book> query() {
 
-		Iterable<Book> books = bookSearchRepository.findAll();
-		System.err.println(books);
+        Iterable<Book> books = bookSearchRepository.findAll();
+        System.err.println(books);
 
-		return books;
-	}
+        return books;
+    }
 
-	/**
-	 * 2、查  ++:全文检索（根据整个实体的所有属性，可能结果为0个）
-	 * @param q
-	 * @return
-	 */
-	@GetMapping("/select/{q}")
-	public List<Book> testSearch(@PathVariable String q) {
-		QueryStringQueryBuilder builder = new QueryStringQueryBuilder(q);
-		Iterable<Book> searchResult = bookSearchRepository.search(builder);
-		Iterator<Book> iterator = searchResult.iterator();
-		List<Book> list = new ArrayList<Book>();
-		while (iterator.hasNext()) {
-			list.add(iterator.next());
-		}
-		return list;
-	}
+    /**
+     * 2、查  ++:全文检索（根据整个实体的所有属性，可能结果为0个）
+     *
+     * @param q
+     * @return
+     */
+    @GetMapping("/select/{q}")
+    public List<Book> testSearch(@PathVariable String q) {
+        QueryStringQueryBuilder builder = new QueryStringQueryBuilder(q);
+        Iterable<Book> searchResult = bookSearchRepository.search(builder);
+        Iterator<Book> iterator = searchResult.iterator();
+        List<Book> list = new ArrayList<Book>();
+        while (iterator.hasNext()) {
+            list.add(iterator.next());
+        }
+        return list;
+    }
 
-	/**
-	 * 3、查   +++：分页、分数、分域（结果一个也不少）
-	 * @param page
-	 * @param size
-	 * @param q
-	 * @return 
-	 * @return
-	 */
+//	/**
+//	 * 3、查   +++：分页、分数、分域（结果一个也不少）
+//	 * @param page
+//	 * @param size
+//	 * @param q
+//	 * @return
+//	 * @return
+//	 */
 //	@GetMapping("/{page}/{size}/{q}")
 //	public List<Book> searchCity(@PathVariable Integer page, @PathVariable Integer size, @PathVariable String q) {
 //
@@ -92,24 +93,23 @@ public class BookController {
 //	}
 
 
-	@PostMapping("/insert")
-	public Book insertBook(@RequestParam("id") String id, @RequestParam("name") String name,
-						   @RequestParam("message") String message, @RequestParam(
-			"type") String type) {
-		Book book = new Book();
-		book.setId(id);
-		book.setMessage(message);
-		book.setName(name);
-		book.setType(type);
-		bookSearchRepository.save(book);
-		return book;
-	}
+    @PostMapping("/insert")
+    public Book insertBook(@RequestParam("id") String id, @RequestParam("name") String name,
+                           @RequestParam("message") String message, @RequestParam("type") String type) {
+        Book book = new Book();
+        book.setId(id);
+        book.setMessage(message);
+        book.setName(name);
+        book.setType(type);
+        Book book1 = bookSearchRepository.save(book);
+        return book1;
+    }
 
-	/**
-	 * 5、删 id
-	 * @param id
-	 * @return
-	 */
+    /**
+     * 5、删 id
+     * @param id
+     * @return
+     */
 //	@DeleteMapping("/delete/{id}")
 //	public Book insertBook(@PathVariable String id) {
 //		Book book = bookSearchRepository.findOne(id);
@@ -117,15 +117,16 @@ public class BookController {
 //		return book;
 //	}
 
-	/**
-	 * 6、改
-	 * @param book
-	 * @return
-	 */
-	@PutMapping("/update")
-	public Book updateBook(Book book) {
-		bookSearchRepository.save(book);
-		return book;
-	}
+    /**
+     * 6、改
+     *
+     * @param book
+     * @return
+     */
+    @PutMapping("/update")
+    public Book updateBook(Book book) {
+        bookSearchRepository.save(book);
+        return book;
+    }
 
 }
