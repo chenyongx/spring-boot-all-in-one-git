@@ -4,6 +4,9 @@ import lombok.Data;
 
 import java.util.Date;
 
+/**
+ * @author yangyueming
+ */
 @Data
 public class Message {
     private Long id;    //id

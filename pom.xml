@@ -32,11 +32,13 @@
 
         <!--<module>spring-boot-aop</module>-->
 
-        <!--<module>spring-boot-kafka</module>-->
+        <module>spring-boot-kafka</module>
+        <module>spring-boot-kafka2</module>
         <!--<module>spring-boot-data-jpa-redis-mysql</module>-->
 
 
         <!--<module>thymeleaf</module>-->
+
 
         <!--<module>spring-shell</module>-->
 

@@ -7,6 +7,9 @@ import org.springframework.stereotype.Component;
 
 import java.util.Optional;
 
+/**
+ * @author yangyueming
+ */
 @Component
 @Slf4j
 public class KafkaReceiver {
