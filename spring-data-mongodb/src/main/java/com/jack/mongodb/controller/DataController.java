@@ -41,12 +41,17 @@ public class DataController {
     }
 
     @GetMapping("/findByName")
-    public Person q1(@RequestParam String name) {
+    public Person findByName(@RequestParam String name) {
         return personRepository.findByName(name);
     }
 
-    @RequestMapping("/q2")
-    public List<Person> q2(Integer age) {
+    @GetMapping("/findAll")
+    public List<Person> findAll() {
+        return personRepository.findAll();
+    }
+
+    @RequestMapping("/findByAge")
+    public List<Person> findByAge(Integer age) {
         return personRepository.withQueryFindByAge(age);
     }
 
