@@ -4,7 +4,7 @@ spring:
   data:
     mongodb:
 #      uri: mongodb://root:aixiangdao%4088@dds-wz946c0849dabfd4-pub.mongodb.rds.aliyuncs.com:3717/admin
-      host: dds-wz946c0849dabfd4-pub.mongodb.rds.aliyuncs.com
+      host: dds-wz9237912b216244-pub.mongodb.rds.aliyuncs.com
       port: 3717
       database: testdb
       username: testuser

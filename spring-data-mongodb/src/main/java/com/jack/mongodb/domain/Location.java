@@ -1,4 +1,4 @@
-package com.jack.redis.domain;
+package com.jack.mongodb.domain;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

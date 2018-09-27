@@ -1,8 +1,8 @@
-package com.jack.redis.controller;
+package com.jack.mongodb.controller;
 
-import com.jack.redis.dao.PersonRepository;
-import com.jack.redis.domain.Location;
-import com.jack.redis.domain.Person;
+import com.jack.mongodb.dao.PersonRepository;
+import com.jack.mongodb.domain.Location;
+import com.jack.mongodb.domain.Person;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;

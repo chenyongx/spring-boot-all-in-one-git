@@ -56,7 +56,7 @@
         <!--<module>spring-data-rest-simple</module>-->
         <!--<module>spring-data-rest</module>-->
         <!--<module>spring-data-transactional</module>-->
-        <!--<module>spring-data-mongodb</module>-->
+        <module>spring-data-mongodb</module>
 
         <!--<module>spring-data-redis</module>-->
         <!--<module>spring-data-cache-redis</module>-->
@@ -67,7 +67,7 @@
 
         <!--<module>spring-mvc</module>-->
         <!--<module>spring-io-jms-activemq</module>-->
-        <!--<module>spring-data-elasticsearch</module>-->
+        <module>spring-data-elasticsearch</module>
         <!--<module>spark</module>-->
 
     </modules>

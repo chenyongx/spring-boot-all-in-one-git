@@ -1,6 +1,6 @@
-package com.jack.redis.dao;
+package com.jack.mongodb.dao;
 
-import com.jack.redis.domain.Person;
+import com.jack.mongodb.domain.Person;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.data.mongodb.repository.Query;
 
