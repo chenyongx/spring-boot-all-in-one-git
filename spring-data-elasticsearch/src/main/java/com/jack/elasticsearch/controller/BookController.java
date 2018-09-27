@@ -110,12 +110,10 @@ public class BookController {
      * @param id
      * @return
      */
-//	@DeleteMapping("/delete/{id}")
-//	public Book insertBook(@PathVariable String id) {
-//		Book book = bookSearchRepository.findOne(id);
-//		bookSearchRepository.delete(id);
-//		return book;
-//	}
+	@PostMapping("/delete")
+	public void insertBook(@RequestParam("id") String id) {
+		bookSearchRepository.deleteById(id);
+	}
 
     /**
      * 6、改
