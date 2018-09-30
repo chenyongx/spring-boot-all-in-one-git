@@ -26,6 +26,8 @@
     <modules>
         <module>poms</module>
 
+        <module>spring-boot-docker</module>
+
         <!--<module>jrebel</module>-->
 
         <!--<module>spring-boot-devtools</module>-->
@@ -67,7 +69,7 @@
 
         <!--<module>spring-mvc</module>-->
         <!--<module>spring-io-jms-activemq</module>-->
-        <module>spring-data-elasticsearch</module>
+        <!--<module>spring-data-elasticsearch</module>-->
         <!--<module>spark</module>-->
 
     </modules>
