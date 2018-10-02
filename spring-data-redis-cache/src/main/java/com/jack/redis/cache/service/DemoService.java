@@ -1,6 +1,6 @@
-package com.jack.cache.redis.service;
+package com.jack.redis.cache.service;
 
-import com.jack.cache.redis.domain.Person;
+import com.jack.redis.cache.domain.Person;
 
 /**
  * @author yangyueming

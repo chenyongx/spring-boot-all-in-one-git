@@ -1,4 +1,4 @@
-package com.jack.cache.redis.domain;
+package com.jack.redis.cache.domain;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

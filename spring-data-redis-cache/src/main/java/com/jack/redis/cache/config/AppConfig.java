@@ -1,4 +1,4 @@
-package com.jack.cache.redis.config;
+package com.jack.redis.cache.config;
 
 import org.springframework.cache.annotation.EnableCaching;
 import org.springframework.context.annotation.Configuration;

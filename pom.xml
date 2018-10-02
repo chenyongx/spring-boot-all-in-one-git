@@ -61,7 +61,7 @@
         <module>spring-data-mongodb</module>
 
         <!--<module>spring-data-redis</module>-->
-        <!--<module>spring-data-cache-redis</module>-->
+        <module>spring-data-redis-cache</module>
 
 
         <!--<module>spring-boot-admin-server</module>-->
@@ -85,21 +85,11 @@
 
     <build>
         <plugins>
-            <!--<plugin>-->
-                <!--<groupId>org.apache.maven.plugins</groupId>-->
-                <!--<artifactId>maven-compiler-plugin</artifactId>-->
-                <!--<version>3.7.0</version>-->
-                <!--<configuration>-->
-                    <!--<source>1.8</source>-->
-                    <!--<target>1.8</target>-->
-                    <!--<skip>true</skip>-->
-                <!--</configuration>-->
-            <!--</plugin>-->
-
             <!--设置module的编译版本为java 1.8-->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.8.0</version>
                 <configuration>
                     <source>1.8</source>
                     <target>1.8</target>
@@ -107,6 +97,7 @@
                 </configuration>
             </plugin>
 
+            <!--加载profiles-->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-resources-plugin</artifactId>

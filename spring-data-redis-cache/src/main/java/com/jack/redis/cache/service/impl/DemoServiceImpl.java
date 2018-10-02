@@ -1,8 +1,8 @@
-package com.jack.cache.redis.service.impl;
+package com.jack.redis.cache.service.impl;
 
-import com.jack.cache.redis.dao.PersonRepository;
-import com.jack.cache.redis.domain.Person;
-import com.jack.cache.redis.service.DemoService;
+import com.jack.redis.cache.dao.PersonRepository;
+import com.jack.redis.cache.domain.Person;
+import com.jack.redis.cache.service.DemoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cache.annotation.CacheEvict;
 import org.springframework.cache.annotation.CachePut;
