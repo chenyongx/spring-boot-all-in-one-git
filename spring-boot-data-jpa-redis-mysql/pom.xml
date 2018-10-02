@@ -6,7 +6,6 @@
     <groupId>com.jack</groupId>
     <artifactId>spring-boot-data-jpa-redis-mysql</artifactId>
     <version>1.0</version>
-    <packaging>jar</packaging>
 
 
     <parent>

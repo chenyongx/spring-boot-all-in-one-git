@@ -6,7 +6,6 @@
     <groupId>com.jack</groupId>
     <artifactId>spring-io-jms-activemq</artifactId>
     <version>1.0</version>
-    <packaging>jar</packaging>
 
 
     <parent>

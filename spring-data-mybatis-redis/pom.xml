@@ -6,7 +6,6 @@
     <groupId>com.jack</groupId>
     <artifactId>spring-data-mybatis-redis</artifactId>
     <version>1.0</version>
-    <packaging>jar</packaging>
 
     <parent>
         <groupId>org.springframework.boot</groupId>

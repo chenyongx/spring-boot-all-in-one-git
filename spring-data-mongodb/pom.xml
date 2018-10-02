@@ -4,29 +4,15 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.jack</groupId>
-    <artifactId>spring-data-mongodb</artifactId>
-    <version>1.0</version>
-    <packaging>jar</packaging>
-
     <parent>
-        <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.0.5.RELEASE</version>
+        <groupId>com.jack</groupId>
+        <artifactId>parent</artifactId>
+        <version>1.0</version>
         <relativePath/>
     </parent>
 
-    <dependencyManagement>
-        <dependencies>
-            <dependency>
-                <groupId>com.jack</groupId>
-                <artifactId>poms</artifactId>
-                <version>1.0</version>
-                <type>pom</type>
-                <scope>import</scope>
-            </dependency>
-        </dependencies>
-    </dependencyManagement>
+    <artifactId>spring-data-mongodb</artifactId>
+    <!--<version>1.0</version>-->
 
     <dependencies>
         <dependency>
