@@ -4,13 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <parent>
-        <groupId>com.jack</groupId>
-        <artifactId>parent</artifactId>
-        <version>1.0</version>
-        <relativePath/>
-    </parent>
-
+    <groupId>com.jack</groupId>
     <artifactId>spring-boot-all-in-one-git</artifactId>
     <version>1.0</version>
     <packaging>pom</packaging>
@@ -19,7 +13,7 @@
     <modules>
         <module>parent</module>
 
-        <module>spring-boot-docker</module>
+        <!--?<module>spring-boot-docker</module>-->
 
         <!--<module>jrebel</module>-->
 
@@ -28,7 +22,7 @@
         <!--<module>spring-boot-aop</module>-->
 
         <module>spring-boot-kafka</module>
-        <module>spring-boot-kafka2</module>
+        <!--?<module>spring-boot-kafka2</module>-->
         <!--<module>spring-boot-data-jpa-redis-mysql</module>-->
 
         <!--<module>spring-shell</module>-->
@@ -48,7 +42,7 @@
         <module>spring-data-mongodb</module>
 
         <!--<module>spring-data-redis</module>-->
-        <module>spring-data-redis-cache</module>
+        <!--?<module>spring-data-redis-cache</module>-->
 
 
         <!--<module>spring-boot-admin-server</module>-->
