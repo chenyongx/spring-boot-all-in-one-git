@@ -1,0 +1,22 @@
+#spring:
+#   data:
+#        elasticsearch:
+#            #cluster-name: #默认为elasticsearch
+#            # Elasticsearch 服务地址
+#            #cluster-nodes: 127.0.0.1: #配置es节点信息，逗号分隔，如果没有指定，则启动ClientNode
+#            #cluster-nodes : localhost:9300
+#            properties:
+#                path:
+#                  logs: ./elasticsearch/log #elasticsearch日志存储目录
+#                  data: ./elasticsearch/data #elasticsearch数据存储目录
+#                transport:
+#                  tcp:
+#                    connect_timeout: 120s
+
+
+#spring:
+#  data:
+#    elasticsearch:
+#      cluster-name: elasticsearch #默认即为 elasticsearch
+#      cluster-nodes: 120.79.197.131:9300 #配置es节点信息，逗号分隔，如果没有指定，则启动ClientNode
+

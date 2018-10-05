@@ -74,27 +74,27 @@ public class BookController {
 	 * @return
 	 * @return
 	 */
-	@GetMapping("/{page}/{size}/{q}")
-	public List<Book> searchCity(@PathVariable Integer page, @PathVariable Integer size, @PathVariable String q) {
-
-		// 分页参数
-		Pageable pageable = new PageRequest(page, size);
-
-		// 分数，并自动按分排序
-		FunctionScoreQueryBuilder functionScoreQueryBuilder = QueryBuilders.functionScoreQuery()
-				.add(QueryBuilders.boolQuery().should(QueryBuilders.matchQuery("name", q)),
-						ScoreFunctionBuilders.weightFactorFunction(1000)) // 权重：name 1000分
-				.add(QueryBuilders.boolQuery().should(QueryBuilders.matchQuery("message", q)),
-						ScoreFunctionBuilders.weightFactorFunction(100)); // 权重：message 100分
-
-		// 分数、分页
-		SearchQuery searchQuery = new NativeSearchQueryBuilder().withPageable(pageable)
-				.withQuery(functionScoreQueryBuilder).build();
-
-		Page<Book> searchPageResults = bookSearchRepository.search(searchQuery);
-		return searchPageResults.getContent();
-
-	}
+//	@GetMapping("/{page}/{size}/{q}")
+//	public List<Book> searchCity(@PathVariable Integer page, @PathVariable Integer size, @PathVariable String q) {
+//
+//		// 分页参数
+//		Pageable pageable = new PageRequest(page, size);
+//
+//		// 分数，并自动按分排序
+//		FunctionScoreQueryBuilder functionScoreQueryBuilder = QueryBuilders.functionScoreQuery()
+//				.add(QueryBuilders.boolQuery().should(QueryBuilders.matchQuery("name", q)),
+//						ScoreFunctionBuilders.weightFactorFunction(1000)) // 权重：name 1000分
+//				.add(QueryBuilders.boolQuery().should(QueryBuilders.matchQuery("message", q)),
+//						ScoreFunctionBuilders.weightFactorFunction(100)); // 权重：message 100分
+//
+//		// 分数、分页
+//		SearchQuery searchQuery = new NativeSearchQueryBuilder().withPageable(pageable)
+//				.withQuery(functionScoreQueryBuilder).build();
+//
+//		Page<Book> searchPageResults = bookSearchRepository.search(searchQuery);
+//		return searchPageResults.getContent();
+//
+//	}
 
 
     @PostMapping("/insert")
