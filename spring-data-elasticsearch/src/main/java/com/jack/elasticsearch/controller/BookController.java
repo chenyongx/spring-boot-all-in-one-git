@@ -2,16 +2,8 @@ package com.jack.elasticsearch.controller;
 
 import com.jack.elasticsearch.domain.Book;
 import com.jack.elasticsearch.repository.BookSearchRepository;
-import org.elasticsearch.index.query.QueryBuilders;
 import org.elasticsearch.index.query.QueryStringQueryBuilder;
-import org.elasticsearch.index.query.functionscore.FunctionScoreQueryBuilder;
-import org.elasticsearch.index.query.functionscore.ScoreFunctionBuilders;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.domain.Page;
-import org.springframework.data.domain.PageRequest;
-import org.springframework.data.domain.Pageable;
-import org.springframework.data.elasticsearch.core.query.NativeSearchQueryBuilder;
-import org.springframework.data.elasticsearch.core.query.SearchQuery;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -66,14 +58,14 @@ public class BookController {
         return list;
     }
 
-	/**
-	 * 3、查   +++：分页、分数、分域（结果一个也不少）
-	 * @param page
-	 * @param size
-	 * @param q
-	 * @return
-	 * @return
-	 */
+//	/**
+//	 * 3、查   +++：分页、分数、分域（结果一个也不少）
+//	 * @param page
+//	 * @param size
+//	 * @param q
+//	 * @return
+//	 * @return
+//	 */
 //	@GetMapping("/{page}/{size}/{q}")
 //	public List<Book> searchCity(@PathVariable Integer page, @PathVariable Integer size, @PathVariable String q) {
 //
@@ -99,12 +91,11 @@ public class BookController {
 
     @PostMapping("/insert")
     public Book insertBook(@RequestParam("id") String id, @RequestParam("name") String name,
-                           @RequestParam("message") String message, @RequestParam("type") String type) {
+                           @RequestParam("message") String message) {
         Book book = new Book();
         book.setId(id);
         book.setMessage(message);
         book.setName(name);
-        book.setType(type);
         Book book1 = bookSearchRepository.save(book);
         return book1;
     }

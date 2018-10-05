@@ -1,4 +1,4 @@
-package com.jack.basic;
+package com.jack.elasticsearch;
 
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;

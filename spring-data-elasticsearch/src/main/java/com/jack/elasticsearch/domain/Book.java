@@ -21,7 +21,4 @@ public class Book {
 	String id;
 	String name;
 	String message;
-	String type;
-
-
 }
