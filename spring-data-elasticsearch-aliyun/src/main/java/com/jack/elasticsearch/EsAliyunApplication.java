@@ -9,10 +9,10 @@ import org.springframework.data.elasticsearch.repository.config.EnableElasticsea
  */
 @SpringBootApplication
 @EnableElasticsearchRepositories
-public class ElasticSearchApplication {
+public class EsAliyunApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(ElasticSearchApplication.class, args);
+        SpringApplication.run(EsAliyunApplication.class, args);
     }
 
 //    @Bean
