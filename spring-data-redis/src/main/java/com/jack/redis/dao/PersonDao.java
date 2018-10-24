@@ -12,14 +12,14 @@ import javax.annotation.Resource;
 @Repository
 public class PersonDao {
 
-    @Autowired
+    @Resource
     StringRedisTemplate stringRedisTemplate; //1
 
     @Resource(name = "stringRedisTemplate")
     ValueOperations<String, String> valOpsStr; //3
 
 
-    @Autowired
+    @Resource
     RedisTemplate<Object, Object> redisTemplate; //2
 
     @Resource(name = "redisTemplate")
