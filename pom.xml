@@ -17,8 +17,6 @@
 
         <!--?<module>spring-boot-docker</module>-->
 
-        <!--<module>jrebel</module>-->
-
         <!--<module>spring-boot-devtools</module>-->
 
         <!--<module>spring-boot-aop</module>-->
