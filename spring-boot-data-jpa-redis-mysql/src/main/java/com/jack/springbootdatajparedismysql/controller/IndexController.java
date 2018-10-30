@@ -1,6 +1,5 @@
 package com.jack.springbootdatajparedismysql.controller;
 
-import com.google.common.collect.ImmutableMap;
 import com.jack.springbootdatajparedismysql.entity.User;
 import com.jack.springbootdatajparedismysql.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -9,7 +8,6 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
-import java.util.Map;
 
 /**
  * @author 19511
@@ -36,11 +34,11 @@ public class IndexController {
     }
 
     @GetMapping("/user/{id}/{name}")
-    public Map update(@PathVariable("id") Long id, @PathVariable("name") String name) {
+    public User update(@PathVariable("id") Long id, @PathVariable("name") String name) {
         User user = userService.findUserById(id);
         user.setUsername(name);
         userService.update(user);
-        return ImmutableMap.of("ret", 0, "msg", "ok");
+        return user;
     }
 
 }
