@@ -1,9 +1,13 @@
+
+
 spring:
   datasource:
     url: ${datasource.url}
     username: ${datasource.username}
     password: ${datasource.password}
   jpa:
+    hibernate:
+      ddl-auto: update
     show-sql: true
 
   redis:
@@ -17,4 +21,4 @@ spring:
 #        min-idle: 0
 #      port: 6379
 #      timeout: 0
-
+debug: true

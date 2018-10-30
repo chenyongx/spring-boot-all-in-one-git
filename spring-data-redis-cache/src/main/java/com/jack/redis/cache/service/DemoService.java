@@ -11,6 +11,6 @@ public interface DemoService {
 
     void remove(Long id);
 
-    Person findOne(Person person);
+    Person findOne(Long id);
 
 }

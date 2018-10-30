@@ -3,16 +3,20 @@ package com.jack.redis.cache.service.impl;
 import com.jack.redis.cache.dao.PersonRepository;
 import com.jack.redis.cache.domain.Person;
 import com.jack.redis.cache.service.DemoService;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cache.annotation.CacheEvict;
 import org.springframework.cache.annotation.CachePut;
 import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;
 
+import javax.annotation.Resource;
+
+/**
+ * @author yangyueming
+ */
 @Service
 public class DemoServiceImpl implements DemoService {
 
-    @Autowired
+    @Resource
     PersonRepository personRepository;
 
     @Override
@@ -31,9 +35,9 @@ public class DemoServiceImpl implements DemoService {
     }
 
     @Override
-    @Cacheable(value = "people", key = "#person.id")//3
-    public Person findOne(Person person) {
-        Person p = personRepository.findOne(person.getId());
+    @Cacheable(value = "people", key = "#id")//3
+    public Person findOne(Long id) {
+        Person p = personRepository.findById(id).get();
         System.out.println("为id、key为:" + p.getId() + "数据做了缓存");
         return p;
     }

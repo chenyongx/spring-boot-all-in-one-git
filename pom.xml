@@ -42,7 +42,7 @@
         <!--?<module>spring-data-mongodb</module>-->
 
         <!--?<module>spring-data-redis</module>-->
-        <!--?<module>spring-data-redis-cache</module>-->
+        <module>spring-data-redis-cache</module>
 
 
         <!--<module>spring-boot-admin-server</module>-->
