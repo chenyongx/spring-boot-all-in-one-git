@@ -3,8 +3,9 @@ package com.jack.mybatis.service.impl;
 import com.jack.mybatis.dao.UserDao;
 import com.jack.mybatis.entity.User;
 import com.jack.mybatis.service.UserService;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+
+import javax.annotation.Resource;
 
 /**
  * @author yangyueming
@@ -12,12 +13,12 @@ import org.springframework.stereotype.Service;
 @Service
 public class UserServiceImpl implements UserService {
 
-    @Autowired
+    @Resource
     private UserDao userDao;
 
     @Override
-    public User findAll(Integer id) {
-        return userDao.findAll(id);
+    public User findById(Integer id) {
+        return userDao.findById(id);
     }
 
 }

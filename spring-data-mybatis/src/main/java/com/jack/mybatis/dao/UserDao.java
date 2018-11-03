@@ -4,7 +4,7 @@ import com.jack.mybatis.entity.User;
 import org.apache.ibatis.annotations.Param;
 
 /**
- * 用户信息dao Created by Infi on 17/3/22.
+ * @author yangyueming
  */
 public interface UserDao {
 
@@ -14,6 +14,6 @@ public interface UserDao {
      * @param id 用户id
      * @return 用户信息
      */
-    User findAll(@Param("id") Integer id);
+    User findById(@Param("id") Integer id);
 
 }

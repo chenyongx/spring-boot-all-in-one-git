@@ -1,12 +1,13 @@
-spring:
-  application:
-    name: mybatis
-  datasource:
-    driver-class-name: org.h2.Driver
-    platform: h2
-    schema: classpath:schema.sql
-    data: classpath:data.sql
 
+spring:
+  datasource:
+    url: ${datasource.url}
+    username: ${datasource.username}
+    password: ${datasource.password}
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
 
 mybatis:
   mapper-locations: classpath:/mapper/*.xml

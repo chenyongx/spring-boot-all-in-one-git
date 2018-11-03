@@ -1,41 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <configuration>
-    <appender class="ch.qos.logback.core.ConsoleAppender" name="console">
-        <encoder>
-            <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
-        </encoder>
-    </appender>
+	<include resource="org/springframework/boot/logging/logback/defaults.xml" />
+	<property name="logback.output" value="./logs"/>
+	<property name="LOG_FILE" value="${logback.output}/server.log" />
+	<include resource="org/springframework/boot/logging/logback/file-appender.xml" />
+	<include resource="org/springframework/boot/logging/logback/console-appender.xml" />
 
-    <appender class="ch.qos.logback.core.rolling.RollingFileAppender" name="rollingFile">
-        <!--<file>${catalina.base}/logs/carmall-manager.log</file>-->
-        <file>carmall-manager.log</file>
-        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
-            <!--<fileNamePattern>${catalina.base}/logs/carmall-manager.%d{yyyy-MM-dd}.log</fileNamePattern>-->
-            <fileNamePattern>carmall-manager.%d{yyyy-MM-dd}.log</fileNamePattern>
-        </rollingPolicy>
-        <encoder>
-            <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
-        </encoder>
-    </appender>
+	<logger name="java.sql.Connection" level="OFF"/>
+	<logger name="java.sql.Statement" level="OFF"/>
+	<logger name="java.sql.PreparedStatement" level="OFF"/>
+	<logger name="java.sql.ResultSet" level="OFF"/>
+	<logger name="jdbc.sqlonly" level="OFF"/>
+	<logger name="jdbc.audit" level="OFF"/>
+	<logger name="jdbc.connection" level="OFF"/>
+	<logger name="jdbc.resultset" level="OFF"/>
+	<logger name="jdbc.sqltiming" level="INFO"/>
 
-    <!-- project default level -->
-    <logger level="debug" name="com.example.demo"/>
-
-    <!--log4jdbc -->
-    <logger level="debug" name="jdbc.sqltiming"/>
-    <logger level="debug" name="com.ibatis"/>
-    <logger level="debug" name="com.ibatis.common.jdbc.SimpleDataSource"/>
-    <logger level="debug" name="com.ibatis.common.jdbc.ScriptRunner"/>
-    <logger level="debug"
-            name="com.ibatis.sqlmap.engine.impl.SqlMapClientDelegate"/>
-    <logger level="debug" name="java.sql.Connection"/>
-    <logger level="debug" name="java.sql.Statement"/>
-    <logger level="debug" name="java.sql.PreparedStatement"/>
-    <logger level="debug" name="java.sql.ResultSet"/>
-    <root level="info">
-        <appender-ref ref="console"/>
-        <!--<appender-ref ref="com.example.demo"/>-->
-        <!--<appender-ref ref="com.ibatis"/>-->
-        <appender-ref ref="rollingFile"/>
-    </root>
+	<root level="INFO">
+		<appender-ref ref="FILE" />
+		<appender-ref ref="CONSOLE" />
+	</root>
 </configuration>

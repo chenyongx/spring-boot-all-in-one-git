@@ -11,7 +11,7 @@
     </resultMap>
 
     <!--根据用户id查询用户信息-->
-    <select id="findAll" resultMap="UserMap">
+    <select id="findById" resultType="com.jack.mybatis.entity.User">
         SELECT id, user_name, birthday
         FROM user
         WHERE id = #{id}
