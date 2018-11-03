@@ -18,7 +18,7 @@ import java.util.Set;
  * @author yangyueming
  */
 @RestController
-public class DataController {
+public class PersonController {
 
     @Resource
     PersonRepository personRepository;

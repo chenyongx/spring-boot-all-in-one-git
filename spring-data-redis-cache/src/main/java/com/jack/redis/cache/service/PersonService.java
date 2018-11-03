@@ -5,7 +5,7 @@ import com.jack.redis.cache.domain.Person;
 /**
  * @author yangyueming
  */
-public interface DemoService {
+public interface PersonService {
 
     Person save(Person person);
 
