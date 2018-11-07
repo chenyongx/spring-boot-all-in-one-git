@@ -33,16 +33,20 @@
         <!--<module>spring-security</module>-->
         <!--<module>spring-security02</module>-->
 
-        <module>spring-data-mybatis</module>
+        <!--?<module>spring-data-mybatis</module>-->
         <!--<module>spring-data-mybatis-redis</module>-->
         <!--<module>spring-data-jpa</module>-->
         <!--<module>spring-data-rest-simple</module>-->
         <!--<module>spring-data-rest</module>-->
         <!--<module>spring-data-transactional</module>-->
-        <module>spring-data-mongodb</module>
 
-        <module>spring-data-redis</module>
-        <module>spring-data-redis-cache</module>
+        <module>spring-boot-hbase-ali</module>
+        <module>spring-boot-hbase</module>
+
+        <!--?<module>spring-data-mongodb</module>-->
+
+        <!--?<module>spring-data-redis</module>-->
+        <!--?<module>spring-data-redis-cache</module>-->
 
 
         <!--<module>spring-boot-admin-server</module>-->

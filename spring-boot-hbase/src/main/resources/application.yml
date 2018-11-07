@@ -1,0 +1,13 @@
+hbase:
+  config:
+
+    hbase.zookeeper.quorum: hb-proxy-pub-wz9e709sr8mjm6xrd-001.hbase.rds.aliyuncs.com
+    hbase.zookeeper.property.clientPort: 2181
+    fs.defaultFS: hdfs://cc-11:8020
+    fs.trash.interval: 1
+
+
+#quorum为hbase集群地址,用逗号分隔就行
+hbase.zookeeper.quorum=hb-proxy-pub-wz9e709sr8mjm6xrd-001.hbase.rds.aliyuncs.com
+#port为zookeper的端口号
+hbase.zookeeper.port=2181

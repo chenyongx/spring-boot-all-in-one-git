@@ -1,4 +1,4 @@
-package com.jack.mongodb.domain;
+package com.jack.hbase.domain;
 
 import lombok.Data;
 import org.springframework.data.annotation.Id;

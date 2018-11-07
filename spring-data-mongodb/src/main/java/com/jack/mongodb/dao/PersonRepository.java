@@ -1,6 +1,6 @@
-package com.jack.mongodb.dao;
+package com.jack.hbase.dao;
 
-import com.jack.mongodb.domain.Person;
+import com.jack.hbase.domain.Person;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.data.mongodb.repository.Query;
 
