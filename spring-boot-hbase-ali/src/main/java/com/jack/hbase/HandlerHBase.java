@@ -31,38 +31,38 @@ public class HandlerHBase {
         log.info(getData("userId-1".getBytes(), "routeId-1".getBytes(), "drivingSpeed".getBytes()));
     }
 
-    public static void putData(byte[] rowKey, byte[] family, byte[] column, byte[] value) throws IOException {
+    public static void putData(byte[] rowKey, byte[] familyName, byte[] columnQualifier, byte[] columnValue) throws IOException {
         Configuration config = HBaseConfiguration.create();
         config.set(HConstants.ZOOKEEPER_QUORUM, ZK_ADDRESS);
         TableName tableName = TableName.valueOf(TABLE_NAME);
         try (Connection connection = ConnectionFactory.createConnection(config); Table table = connection.getTable(tableName);) {
             HTableDescriptor hTableDescriptor = new HTableDescriptor(tableName);
-            hTableDescriptor.addFamily(new HColumnDescriptor(family));
+            hTableDescriptor.addFamily(new HColumnDescriptor(familyName));
             Admin admin = connection.getAdmin();
             if (!admin.tableExists(tableName)) {
                 admin.createTable(hTableDescriptor);
             }
             Put put = new Put(rowKey);
-            put.addColumn(family, column, value);
+            put.addColumn(familyName, columnQualifier, columnValue);
             table.put(put);
         }
     }
 
-    public static String getData(byte[] rowKey, byte[] family, byte[] column) throws IOException {
+    public static String getData(byte[] rowKey, byte[] familyName, byte[] columnQualifier) throws IOException {
         Configuration config = HBaseConfiguration.create();
         config.set(HConstants.ZOOKEEPER_QUORUM, ZK_ADDRESS);
         TableName tableName = TableName.valueOf(TABLE_NAME);
         try (Connection connection = ConnectionFactory.createConnection(config); Table table = connection.getTable(tableName);) {
             HTableDescriptor tableDescriptor = new HTableDescriptor(tableName);
-            tableDescriptor.addFamily(new HColumnDescriptor(family));
+            tableDescriptor.addFamily(new HColumnDescriptor(familyName));
             Admin admin = connection.getAdmin();
             if (!admin.tableExists(tableName)) {
                 admin.createTable(tableDescriptor);
             }
             Get get = new Get(rowKey);
             Result result = table.get(get);
-            byte[] value = result.getValue(family, column);
-            return new String(value);
+            byte[] columnValue = result.getValue(familyName, columnQualifier);
+            return new String(columnValue);
         }
     }
 }
