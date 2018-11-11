@@ -1,0 +1,27 @@
+
+
+spring:
+  datasource:
+    url: ${datasource.url}
+    username: ${datasource.username}
+    password: ${datasource.password}
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+  redis:
+#      database: 0
+      host: localhost
+#      password: ''
+#      pool:
+#        max-active: 8
+#        max-idle: 8
+#        max-wait: -1
+#        min-idle: 0
+#      port: 6379
+#      timeout: 0
+debug: true
+server:
+  port: 9999
+
