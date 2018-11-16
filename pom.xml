@@ -15,7 +15,7 @@
 
         <!--?<module>java-basic</module>-->
 
-        <!--?<module>spring-boot-global-exception-handler</module>-->
+        <module>spring-boot-global-exception-handler</module>
         <module>spring-boot-aop-request-handler</module>
 
         <!--?<module>spring-boot-docker</module>-->

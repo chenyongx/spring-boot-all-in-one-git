@@ -1,0 +1,13 @@
+(1 ）关闭 CentOS 自带 的 防火墙服务 ：
+# systemctl disable firewalld
+# systemctl stop firewalld
+( 2 ）安装 etcd 和 Kubemetes 软件（会自动安装 Docker 软件） ：
+# yum install -y etcd kubernetes
+(3 ）按顺序启动所有 的服务 ：
+# systemctl start etcd
+# systemctl start docker
+# systemctl start kube - apiserver
+# systemctl start kube-controller- manager
+# systemctl start kube-scheduler
+# systemctl start kubelet
+# systemctl start kube-proxy

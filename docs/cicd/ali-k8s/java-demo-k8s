@@ -1,0 +1,314 @@
+
+Skip to content
+
+
+
+
+进度:
+控制台输出
+您的账号 13423685271@139.com
+[EnvInject] - Loading node environment variables.
+在 slave-java-cache-7dc5b761dcb1 上远程构建
+ (
+slave-java-cache
+)
+ 工作目录 /home/jenkins/workspace/java-demo-k8s
+[YAD-PLUGIN] Injecting DOCKER_CONTAINER_ID variable.
+[YAD-PLUGIN] Injecting JENKINS_CLOUD_ID variable.
+[YAD-PLUGIN] DOCKER_HOST variable.
+[YAD-PLUGIN] Injecting DOCKER_CONTAINER_ID variable.
+[YAD-PLUGIN] Injecting JENKINS_CLOUD_ID variable.
+[YAD-PLUGIN] DOCKER_HOST variable.
+Cloning the remote Git repository
+Cloning repository https://code.aliyun.com/CodePipeline/java-demo.git
+ > git init /home/jenkins/workspace/java-demo-k8s # timeout=10
+Fetching upstream changes from https://code.aliyun.com/CodePipeline/java-demo.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials
+ > git fetch --tags --progress https://code.aliyun.com/CodePipeline/java-demo.git +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url https://code.aliyun.com/CodePipeline/java-demo.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://code.aliyun.com/CodePipeline/java-demo.git # timeout=10
+Fetching upstream changes from https://code.aliyun.com/CodePipeline/java-demo.git
+using GIT_ASKPASS to set credentials
+ > git fetch --tags --progress https://code.aliyun.com/CodePipeline/java-demo.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+[YAD-PLUGIN] Injecting DOCKER_CONTAINER_ID variable.
+[YAD-PLUGIN] Injecting JENKINS_CLOUD_ID variable.
+[YAD-PLUGIN] DOCKER_HOST variable.
+Checking out Revision 423aa9480fe803e5ad2347bd4e27e86f61fdaeda (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 423aa9480fe803e5ad2347bd4e27e86f61fdaeda
+ > git rev-list 423aa9480fe803e5ad2347bd4e27e86f61fdaeda # timeout=10
+[YAD-PLUGIN] Injecting DOCKER_CONTAINER_ID variable.
+[YAD-PLUGIN] Injecting JENKINS_CLOUD_ID variable.
+[YAD-PLUGIN] DOCKER_HOST variable.
+[java-demo-k8s] $ /bin/bash -c "chmod +x /tmp/hudson8936383709808568577.sh;chown -R jenkins:jenkins /home/jenkins;su -s /bin/sh -c 'export PATH=$PATH;/tmp/hudson8936383709808568577.sh' jenkins"
+[INFO] Scanning for projects...
+[INFO]
+[INFO] ------------------------------------------------------------------------
+[INFO] Building jenkins-demo-web 1.0.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO]
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ jenkins-demo-web ---
+
+[WARNING] Using platform encoding (ANSI_X3.4-1968 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/jenkins/workspace/java-demo-k8s/src/main/resources
+[INFO]
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ jenkins-demo-web ---
+[INFO] No sources to compile
+[INFO]
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ jenkins-demo-web ---
+[WARNING] Using platform encoding (ANSI_X3.4-1968 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/jenkins/workspace/java-demo-k8s/src/test/resources
+[INFO]
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ jenkins-demo-web ---
+[INFO] No sources to compile
+[INFO]
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ jenkins-demo-web ---
+[INFO] Tests are skipped.
+[INFO]
+[INFO] --- maven-war-plugin:2.2:war (default-war) @ jenkins-demo-web ---
+[INFO] Packaging webapp
+[INFO] Assembling webapp [jenkins-demo-web] in [/home/jenkins/workspace/java-demo-k8s/target/demo]
+[INFO] Processing war project
+[INFO] Copying webapp resources [/home/jenkins/workspace/java-demo-k8s/src/main/webapp]
+[INFO] Webapp assembled in [34 msecs]
+[INFO] Building war: /home/jenkins/workspace/java-demo-k8s/target/demo.war
+[INFO] WEB-INF/web.xml already added, skipping
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 1.819 s
+[INFO] Finished at: 2018-11-16T08:32:06+00:00
+[INFO] Final Memory: 12M/303M
+[INFO] ------------------------------------------------------------------------
+[YAD-PLUGIN] Injecting DOCKER_CONTAINER_ID variable.
+[YAD-PLUGIN] Injecting JENKINS_CLOUD_ID variable.
+[YAD-PLUGIN] DOCKER_HOST variable.
+[java-demo-k8s] $ /bin/bash -c "chmod +x /tmp/hudson6650562920338261577.sh;chown -R jenkins:jenkins /home/jenkins;su -s /bin/sh -c 'export PATH=$PATH;/tmp/hudson6650562920338261577.sh' jenkins"
+[INFO] Scanning for projects...
+[INFO]
+[INFO] ------------------------------------------------------------------------
+[INFO] Building jenkins-demo-web 1.0.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO]
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ jenkins-demo-web ---
+[WARNING] Using platform encoding (ANSI_X3.4-1968 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/jenkins/workspace/java-demo-k8s/src/main/resources
+[INFO]
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ jenkins-demo-web ---
+[INFO] No sources to compile
+[INFO]
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ jenkins-demo-web ---
+[WARNING] Using platform encoding (ANSI_X3.4-1968 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/jenkins/workspace/java-demo-k8s/src/test/resources
+[INFO]
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ jenkins-demo-web ---
+[INFO] No sources to compile
+[INFO]
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ jenkins-demo-web ---
+[INFO] No tests to run.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 1.129 s
+[INFO] Finished at: 2018-11-16T08:32:08+00:00
+[INFO] Final Memory: 9M/303M
+[INFO] ------------------------------------------------------------------------
+[YAD-PLUGIN] Injecting DOCKER_CONTAINER_ID variable.
+[YAD-PLUGIN] Injecting JENKINS_CLOUD_ID variable.
+[YAD-PLUGIN] DOCKER_HOST variable.
+[YAD-PLUGIN] Injecting DOCKER_CONTAINER_ID variable.
+[YAD-PLUGIN] Injecting JENKINS_CLOUD_ID variable.
+[YAD-PLUGIN] DOCKER_HOST variable.
+[YAD-PLUGIN] Injecting DOCKER_CONTAINER_ID variable.
+[YAD-PLUGIN] Injecting JENKINS_CLOUD_ID variable.
+[YAD-PLUGIN] DOCKER_HOST variable.
+[YAD-PLUGIN] Injecting DOCKER_CONTAINER_ID variable.
+[YAD-PLUGIN] Injecting JENKINS_CLOUD_ID variable.
+[YAD-PLUGIN] DOCKER_HOST variable.
+[YAD-PLUGIN] Injecting DOCKER_CONTAINER_ID variable.
+[YAD-PLUGIN] Injecting JENKINS_CLOUD_ID variable.
+[YAD-PLUGIN] DOCKER_HOST variable.
+[YAD-PLUGIN] Injecting DOCKER_CONTAINER_ID variable.
+[YAD-PLUGIN] Injecting JENKINS_CLOUD_ID variable.
+[YAD-PLUGIN] DOCKER_HOST variable.
+[YAD-PLUGIN] Injecting DOCKER_CONTAINER_ID variable.
+[YAD-PLUGIN] Injecting JENKINS_CLOUD_ID variable.
+[YAD-PLUGIN] DOCKER_HOST variable.
+[YAD-PLUGIN] Injecting DOCKER_CONTAINER_ID variable.
+[YAD-PLUGIN] Injecting JENKINS_CLOUD_ID variable.
+[YAD-PLUGIN] DOCKER_HOST variable.
+[YAD-PLUGIN] Injecting DOCKER_CONTAINER_ID variable.
+[YAD-PLUGIN] Injecting JENKINS_CLOUD_ID variable.
+[YAD-PLUGIN] DOCKER_HOST variable.
+[YAD-PLUGIN] Injecting DOCKER_CONTAINER_ID variable.
+[YAD-PLUGIN] Injecting JENKINS_CLOUD_ID variable.
+[YAD-PLUGIN] DOCKER_HOST variable.
+[YAD-PLUGIN] Injecting DOCKER_CONTAINER_ID variable.
+[YAD-PLUGIN] Injecting JENKINS_CLOUD_ID variable.
+[YAD-PLUGIN] DOCKER_HOST variable.
+[YAD-PLUGIN] Injecting DOCKER_CONTAINER_ID variable.
+[YAD-PLUGIN] Injecting JENKINS_CLOUD_ID variable.
+[YAD-PLUGIN] DOCKER_HOST variable.
+[java-demo-k8s] $ sudo docker build -t registry.cn-shenzhen.aliyuncs.com/namespace95/nginx:latest --pull=true --file=/home/jenkins/workspace/java-demo-k8s/Dockerfile /home/jenkins/workspace/java-demo-k8s
+Sending build context to Docker daemon  99.33kB
+
+Step 1/2 : FROM tomcat
+latest: Pulling from library/tomcat
+Digest: sha256:1b18333c03f68a64eb5dcc246984e89cf2d6737b04d95aa34cd337d8abfe796e
+Status: Image is up to date for tomcat:latest
+
+ ---> 6759d91a032b
+Step 2/2 : ADD target/demo.war /usr/local/tomcat/webapps/demo.war
+ ---> f56f405796ba
+
+Removing intermediate container 3b1d56ec1122
+Successfully built f56f405796ba
+Successfully tagged registry.cn-shenzhen.aliyuncs.com/namespace95/nginx:latest
+[YAD-PLUGIN] Injecting DOCKER_CONTAINER_ID variable.
+[YAD-PLUGIN] Injecting JENKINS_CLOUD_ID variable.
+[YAD-PLUGIN] DOCKER_HOST variable.
+[java-demo-k8s] $ sudo docker tag f56f405796ba registry.cn-shenzhen.aliyuncs.com/namespace95/nginx:latest
+[YAD-PLUGIN] Injecting DOCKER_CONTAINER_ID variable.
+[YAD-PLUGIN] Injecting JENKINS_CLOUD_ID variable.
+[YAD-PLUGIN] DOCKER_HOST variable.
+[java-demo-k8s] $ sudo docker inspect f56f405796ba
+[YAD-PLUGIN] Injecting DOCKER_CONTAINER_ID variable.
+[YAD-PLUGIN] Injecting JENKINS_CLOUD_ID variable.
+[YAD-PLUGIN] DOCKER_HOST variable.
+[YAD-PLUGIN] Injecting DOCKER_CONTAINER_ID variable.
+[YAD-PLUGIN] Injecting JENKINS_CLOUD_ID variable.
+[YAD-PLUGIN] DOCKER_HOST variable.
+[YAD-PLUGIN] Injecting DOCKER_CONTAINER_ID variable.
+[YAD-PLUGIN] Injecting JENKINS_CLOUD_ID variable.
+[YAD-PLUGIN] DOCKER_HOST variable.
+[YAD-PLUGIN] Injecting DOCKER_CONTAINER_ID variable.
+[YAD-PLUGIN] Injecting JENKINS_CLOUD_ID variable.
+[YAD-PLUGIN] DOCKER_HOST variable.
+[YAD-PLUGIN] Injecting DOCKER_CONTAINER_ID variable.
+[YAD-PLUGIN] Injecting JENKINS_CLOUD_ID variable.
+[YAD-PLUGIN] DOCKER_HOST variable.
+[java-demo-k8s] $ sudo docker push registry.cn-shenzhen.aliyuncs.com/namespace95/nginx:latest
+The push refers to a repository [registry.cn-shenzhen.aliyuncs.com/namespace95/nginx]
+ee0f71a13d01: Preparing
+c2b2c79f1e7c: Preparing
+799752e243fb: Preparing
+9883f52bceab: Preparing
+d277f245cc6b: Preparing
+0a743e17e0d0: Preparing
+20468c041c0a: Preparing
+185c62a48a71: Preparing
+d683471ab65a: Preparing
+0f25831f224d: Preparing
+08a01612ffca: Preparing
+8bb25f9cdc41: Preparing
+f715ed19c28b: Preparing
+0a743e17e0d0: Waiting
+20468c041c0a: Waiting
+185c62a48a71: Waiting
+d683471ab65a: Waiting
+0f25831f224d: Waiting
+08a01612ffca: Waiting
+8bb25f9cdc41: Waiting
+f715ed19c28b: Waiting
+ee0f71a13d01: Pushed
+d277f245cc6b: Pushed
+c2b2c79f1e7c: Pushed
+9883f52bceab: Pushed
+
+799752e243fb: Pushed
+185c62a48a71: Pushed
+0a743e17e0d0: Pushed
+d683471ab65a: Pushed
+0f25831f224d: Pushed
+
+08a01612ffca: Pushed
+8bb25f9cdc41: Pushed
+
+f715ed19c28b: Pushed
+
+20468c041c0a: Pushed
+
+latest: digest: sha256:b0488c0ff43bcb6972c559d2c461f22158dc8a74fcd6ae89cdc82c3824229c0e size: 3044
+[YAD-PLUGIN] Injecting DOCKER_CONTAINER_ID variable.
+[YAD-PLUGIN] Injecting JENKINS_CLOUD_ID variable.
+[YAD-PLUGIN] DOCKER_HOST variable.
+[java-demo-k8s] $ sudo docker push registry.cn-shenzhen.aliyuncs.com/namespace95/nginx:latest
+The push refers to a repository [registry.cn-shenzhen.aliyuncs.com/namespace95/nginx]
+ee0f71a13d01: Preparing
+c2b2c79f1e7c: Preparing
+799752e243fb: Preparing
+9883f52bceab: Preparing
+d277f245cc6b: Preparing
+0a743e17e0d0: Preparing
+20468c041c0a: Preparing
+185c62a48a71: Preparing
+d683471ab65a: Preparing
+0f25831f224d: Preparing
+08a01612ffca: Preparing
+8bb25f9cdc41: Preparing
+f715ed19c28b: Preparing
+20468c041c0a: Waiting
+185c62a48a71: Waiting
+d683471ab65a: Waiting
+0f25831f224d: Waiting
+08a01612ffca: Waiting
+8bb25f9cdc41: Waiting
+f715ed19c28b: Waiting
+9883f52bceab: Waiting
+d277f245cc6b: Waiting
+0a743e17e0d0: Waiting
+c2b2c79f1e7c: Layer already exists
+799752e243fb: Layer already exists
+ee0f71a13d01: Layer already exists
+9883f52bceab: Layer already exists
+0a743e17e0d0: Layer already exists
+d277f245cc6b: Layer already exists
+20468c041c0a: Layer already exists
+185c62a48a71: Layer already exists
+d683471ab65a: Layer already exists
+0f25831f224d: Layer already exists
+08a01612ffca: Layer already exists
+8bb25f9cdc41: Layer already exists
+f715ed19c28b: Layer already exists
+
+latest: digest: sha256:b0488c0ff43bcb6972c559d2c461f22158dc8a74fcd6ae89cdc82c3824229c0e size: 3044
+---------------------------------------------------------------
+
+Start variable Substition.
+
+[YAD-PLUGIN] Injecting DOCKER_CONTAINER_ID variable.
+[YAD-PLUGIN] Injecting JENKINS_CLOUD_ID variable.
+[YAD-PLUGIN] DOCKER_HOST variable.
+---------------------------------------------------------------
+
+Apply config file.
+
+kubectl apply -f /home/jenkins/workspace/java-demo-k8s/deployment.yaml --kubeconfig=/home/jenkins/workspace/java-demo-k8s/.kubeconfig
+deployment "java-demo" created
+service "java-demo" created
+---------------------------------------------------------------
+
+Start status check.
+
+#Change namespace to: default
+##Exec status check for: java-demo
+kubectl get deployments --kubeconfig=/home/jenkins/workspace/java-demo-k8s/.kubeconfig --namespace=default
+NAME        DESIRED   CURRENT   UP-TO-DATE   AVAILABLE   AGE
+java-demo   2         2         2            0           0s
+##Exec status check for: java-demo
+kubectl get deployments --kubeconfig=/home/jenkins/workspace/java-demo-k8s/.kubeconfig --namespace=default
+NAME        DESIRED   CURRENT   UP-TO-DATE   AVAILABLE   AGE
+java-demo   2         2         2            2           31s
+---------------------------------------------------------------
+
+Start list nodes.
+
+    addresses:
+    - address: 192.168.1.137
+    addresses:
+    - address: 192.168.1.136
+Finished: SUCCESS
