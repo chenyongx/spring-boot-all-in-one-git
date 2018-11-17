@@ -1,20 +1,29 @@
 package com.jack.mvc;
 
-import org.springframework.boot.SpringApplication;
+import org.springframework.boot.Banner;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.ApplicationContext;
-import org.springframework.context.support.ClassPathXmlApplicationContext;
+import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
+import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
 /**
  * @author yangyueming
  */
-@SpringBootApplication
+@SpringBootApplication(exclude={DataSourceAutoConfiguration.class})
 @EnableJpaRepositories
 public class MvcApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(MvcApplication.class, args);
-        ApplicationContext context = new ClassPathXmlApplicationContext("services.xml", "daos.xml");
+//        SpringApplication.run(MvcApplication.class, args);
+
+//        SpringApplication app = new SpringApplication(MvcApplication.class);
+//        app.setBannerMode(Banner.Mode.OFF);
+//        app.run(args);
+
+        new SpringApplicationBuilder()
+                .child(MvcApplication.class)
+                .bannerMode(Banner.Mode.OFF)
+                .run(args);
     }
+
 }
