@@ -41,7 +41,7 @@
         <module>spring-data-jpa</module>
         <!--<module>spring-data-rest-simple</module>-->
         <!--<module>spring-data-rest</module>-->
-        <!--<module>spring-data-transactional</module>-->
+        <module>spring-data-transactional</module>
 
         <!--?<module>spring-boot-hbase-ali</module>-->
         <!--?<module>spring-boot-hbase</module>-->
