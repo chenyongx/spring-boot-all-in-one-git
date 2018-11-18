@@ -12,6 +12,9 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
 
+/**
+ * @author yangyueming
+ */
 @RestController
 public class DataController {
 
@@ -54,6 +57,7 @@ public class DataController {
      */
     @RequestMapping("/page")
     public Page<Person> page() {
-        return personRepository.findAll(new PageRequest(1, 2));
+//        return personRepository.findAll(new PageRequest(1, 2));
+        return personRepository.findAll(PageRequest.of(1, 2));
     }
 }
