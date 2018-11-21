@@ -5,12 +5,14 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.jms.annotation.EnableJms;
 import org.springframework.jms.core.JmsTemplate;
 
 /**
  * @author yangyueming
  */
 @SpringBootApplication
+@EnableJms
 public class ActivemqApplication implements CommandLineRunner { //1
 
     @Autowired
@@ -21,7 +23,7 @@ public class ActivemqApplication implements CommandLineRunner { //1
     }
 
     @Override
-    public void run(String... args) throws Exception {
+    public void run(String... args) {
         jmsTemplate.send("my-destination", new Msg()); //3
     }
 }
