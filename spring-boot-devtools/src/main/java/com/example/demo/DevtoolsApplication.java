@@ -16,8 +16,9 @@ public class DevtoolsApplication {
         SpringApplication.run(DevtoolsApplication.class, args);
     }
 
-    @RequestMapping("/hello2")
+    @RequestMapping("/hello")
     public String hello() {
-        return "hello9";
+//        Ordered.HIGHEST_PRECEDENCE;
+        return "hello123";
     }
 }

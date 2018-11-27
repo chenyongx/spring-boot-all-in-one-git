@@ -1,4 +1,4 @@
-package com.jack.basic;
+package com.jack.web;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

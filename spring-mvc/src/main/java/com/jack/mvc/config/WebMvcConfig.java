@@ -9,12 +9,13 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.http.converter.HttpMessageConverter;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
-import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
+import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 import java.util.List;
 
 @Configuration
-public class WebMvcConfig extends WebMvcConfigurerAdapter {
+//public class WebMvcConfig extends WebMvcConfigurerAdapter {
+public class WebMvcConfig implements WebMvcConfigurer {
 
     @Autowired
     private AuthInterceptor authInterceptor;
@@ -32,7 +33,7 @@ public class WebMvcConfig extends WebMvcConfigurerAdapter {
                         "/beans",
                         "/metrics", "/view**/**", "/accset**/**", "/**.html", "/**.js", "*.jpg", "*.png",
                         "/resources", "/static", "/monitoring**/**", "/error");
-        super.addInterceptors(registry);
+        WebMvcConfigurer.super.addInterceptors(registry);
     }
 
     @Override
