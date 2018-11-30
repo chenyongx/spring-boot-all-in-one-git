@@ -12,8 +12,11 @@
 
     <modules>
         <module>parent</module>
+        <module>common</module>
 
         <module>java-web</module>
+
+        <module>spring-boot-actuator</module>
 
         <module>spring-boot-global-exception-handler</module>
         <module>spring-boot-aop-request-handler</module>

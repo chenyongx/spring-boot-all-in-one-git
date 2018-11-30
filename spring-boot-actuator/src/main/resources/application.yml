@@ -1,0 +1,13 @@
+debug: true
+
+management:
+  endpoint:
+    shutdown:
+      enabled: true
+    info:
+      enabled: true
+  # 开启所有端点
+  endpoints:
+    web:
+      exposure:
+        include: *
