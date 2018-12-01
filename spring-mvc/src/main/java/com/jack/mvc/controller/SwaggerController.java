@@ -6,7 +6,6 @@ import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiResponse;
 import io.swagger.annotations.ApiResponses;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
@@ -14,7 +13,6 @@ import org.springframework.web.bind.annotation.RestController;
 @Api(description = "hello", basePath = "hello")
 public class SwaggerController {
     @RequestMapping("/")
-    @ResponseBody
     @ApiOperation(value = "查询设备信息")
     @ApiResponses(value = {@ApiResponse(code = 200, message = "成功", response = User.class),
             @ApiResponse(code = 1001, message = "token is null"),
