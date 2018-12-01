@@ -4,3 +4,13 @@
 #    port: 35729
 #  restart:
 #    enabled: true #是否支持热部署
+
+spring:
+  datasource:
+    url: ${datasource.url}
+    username: ${datasource.username}
+    password: ${datasource.password}
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true

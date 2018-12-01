@@ -19,6 +19,7 @@ import java.util.List;
 
 /**
  * @author yangyueming
+ * http://localhost:8080/swagger-ui.html
  */
 @Configuration
 @EnableSwagger2
@@ -32,7 +33,7 @@ public class SwaggerConfig {
                 .parameterType("header").required(false).build();
         pars.add(tokenPar.build());
         return new Docket(DocumentationType.SWAGGER_2).apiInfo(getApiInfo()).select()
-                .apis(RequestHandlerSelectors.basePackage("com.jack.mvc.jpa.h2.druid.demo.web"))
+                .apis(RequestHandlerSelectors.basePackage("com.jack"))
                 .paths(PathSelectors.any()).build().globalOperationParameters(pars)
                 .apiInfo(getApiInfo());
     }

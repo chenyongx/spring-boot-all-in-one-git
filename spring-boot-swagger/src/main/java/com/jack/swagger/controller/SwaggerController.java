@@ -15,15 +15,12 @@ import org.springframework.web.bind.annotation.RestController;
  * @author yangyueming
  */
 @RestController
-@RequestMapping(value = "/hello")
-@Api(description = "hello", basePath = "hello")
+@RequestMapping(value = "/user")
+@Api(description = "user", basePath = "user")
 public class SwaggerController {
     @GetMapping("/")
     @ApiOperation(value = "查询设备信息")
-    @ApiResponses(value = {@ApiResponse(code = 200, message = "成功", response = User.class),
-            @ApiResponse(code = 1001, message = "token is null"),
-            @ApiResponse(code = 1002, message = "token is invaild"),
-            @ApiResponse(code = 1004, message = "parameter null")})
+    @ApiResponses(value = {@ApiResponse(code = 200, message = "成功", response = User.class)})
     String home() {
         return "Hello World!";
     }

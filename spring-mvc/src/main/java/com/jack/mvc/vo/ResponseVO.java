@@ -1,4 +1,4 @@
-package com.jack.vo;
+package com.jack.mvc.vo;
 
 import lombok.Getter;
 import lombok.Setter;
