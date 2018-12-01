@@ -1,6 +1,6 @@
-package com.jack.mvc.controller;
+package com.jack.swagger.controller;
 
-import com.jack.mvc.entity.User;
+import com.jack.common.entity.User;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiOperation;

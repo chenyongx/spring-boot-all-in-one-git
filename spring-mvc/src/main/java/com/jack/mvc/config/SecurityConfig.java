@@ -12,20 +12,20 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 
+import javax.annotation.Resource;
+
 /**
  * 安全配置类.
  *
- * @author <a href="https://waylau.com">Way Lau</a>
- * @since 1.0.0 2017年5月30日
  */
 @EnableWebSecurity
 public class SecurityConfig extends WebSecurityConfigurerAdapter {
-    private static final String KEY = "waylau.com";
+    private static final String KEY = "jack.com";
 
-    @Autowired
+    @Resource
     private UserDetailsService userDetailsService;
 
-    @Autowired
+    @Resource
     private PasswordEncoder passwordEncoder;
 
     @Bean
@@ -61,12 +61,13 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
     /**
      * 认证信息管理
      *
-     * @param auth
-     * @throws Exception
+     * @param auth a
+     * @throws Exception a
      */
     @Autowired
     public void configureGlobal(AuthenticationManagerBuilder auth) throws Exception {
         auth.userDetailsService(userDetailsService);
         auth.authenticationProvider(authenticationProvider());
     }
+
 }

@@ -49,6 +49,8 @@
         <!--?<module>spring-boot-hbase-ali</module>-->
         <!--?<module>spring-boot-hbase</module>-->
 
+        <module>spring-boot-swagger</module>
+
         <!--?<module>spring-data-mongodb</module>-->
 
         <module>spring-data-redis</module>
