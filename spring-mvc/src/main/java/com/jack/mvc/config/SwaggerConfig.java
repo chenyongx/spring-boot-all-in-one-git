@@ -18,12 +18,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * <p>Description:</p>
- * <pre></pre>
- * <p>Company: jack</p>
- *
  * @author yangyueming
- * @date 2017/11/13
  */
 @Configuration
 @EnableSwagger2
