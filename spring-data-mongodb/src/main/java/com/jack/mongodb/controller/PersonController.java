@@ -1,8 +1,8 @@
-package com.jack.hbase.controller;
+package com.jack.mongodb.controller;
 
-import com.jack.hbase.dao.PersonRepository;
-import com.jack.hbase.domain.Location;
-import com.jack.hbase.domain.Person;
+import com.jack.mongodb.dao.PersonRepository;
+import com.jack.mongodb.domain.Location;
+import com.jack.mongodb.domain.Person;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;

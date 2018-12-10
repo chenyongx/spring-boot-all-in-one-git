@@ -1,4 +1,4 @@
-package com.jack.redis.cache.config;
+package com.jack.redis.lock.aop.config;
 
 import org.springframework.cache.CacheManager;
 import org.springframework.context.annotation.Bean;
